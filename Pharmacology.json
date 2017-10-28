@@ -1,0 +1,516 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "2cedcbfa-bbde-11e7-a130-f40f241a83b0", 
+    "deck_config_uuid": "fd4483b8-bbaf-11e7-86f5-f40f241a83b0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "fd4483b8-bbaf-11e7-86f5-f40f241a83b0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Pharmacology", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 200, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": false, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 200
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "paste-1679332212892.jpg"
+    ], 
+    "name": "Pharmacology", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Drug", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Class", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Uses", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Presentation", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Action", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Doses", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Onset/Duration", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Routes", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Effects", 
+                    "ord": 8, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Toxicity", 
+                    "ord": 9, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Absorption", 
+                    "ord": 10, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Distribution", 
+                    "ord": 11, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Metabolism", 
+                    "ord": 12, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Elimination", 
+                    "ord": 13, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Number of uses", 
+                    "ord": 14, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Number of routes", 
+                    "ord": 15, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Systems affected", 
+                    "ord": 16, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 17, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Physical Properties", 
+                    "ord": 18, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Pharmacology", 
+            "req": [
+                [
+                    0, 
+                    "any", 
+                    [
+                        0, 
+                        14
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    2, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    3, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    4, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    5, 
+                    "any", 
+                    [
+                        0, 
+                        15
+                    ]
+                ], 
+                [
+                    6, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    7, 
+                    "any", 
+                    [
+                        0, 
+                        15
+                    ]
+                ], 
+                [
+                    8, 
+                    "any", 
+                    [
+                        0, 
+                        16
+                    ]
+                ], 
+                [
+                    9, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    10, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    11, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    12, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    13, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [
+                "cardiology", 
+                "cardiovascular-drugs"
+            ], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Uses}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Uses", 
+                    "ord": 0, 
+                    "qfmt": "What are the uses of {{Drug}}?<br>\n<br>List {{Number of uses}}\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Presentation}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Presentation", 
+                    "ord": 1, 
+                    "qfmt": "In what form/s is {{Drug}} presented?\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Physical Properties}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Physical Properties", 
+                    "ord": 2, 
+                    "qfmt": "What are the Physical Properties of {{Drug}}\n\n\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Action}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Action", 
+                    "ord": 3, 
+                    "qfmt": "What is the mechanism of action of {{Drug}}?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Class}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Class", 
+                    "ord": 4, 
+                    "qfmt": "What class of drug is {{Drug}}\n<br>\nStructure?\n\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Doses}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Doses", 
+                    "ord": 5, 
+                    "qfmt": "In what doses can {{Drug}} be given? <br><br>\nThere are {{Number of routes}} doses to consider based on route.\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Onset/Duration}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Onset/Duration", 
+                    "ord": 6, 
+                    "qfmt": "What is the onset of {{Drug}}, and what is its duration?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Routes}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Routes", 
+                    "ord": 7, 
+                    "qfmt": "In what routes can {{Drug}} be given? <br>\n<br>List {{Number of routes}}\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Effects}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Effects", 
+                    "ord": 8, 
+                    "qfmt": "What are the effects of {{Drug}}?<br><br>\nClassify by system<br>\n\nList {{Systems affected}}\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Toxicity}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Toxicity", 
+                    "ord": 9, 
+                    "qfmt": "What are the side effects/toxicity of {{Drug}}?<br>\n\n\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Absorption}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Absorption", 
+                    "ord": 10, 
+                    "qfmt": "How is {{Drug}} absorbed?\nWhat is its bioavailability?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Distribution}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Distribution", 
+                    "ord": 11, 
+                    "qfmt": "What is the distribution of {{Drug}}?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Metabolism}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Metabolism", 
+                    "ord": 12, 
+                    "qfmt": "How is {{Drug}} metabolised?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Elimination}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Elimination", 
+                    "ord": 13, 
+                    "qfmt": "How is {{Drug}} excreted?\n\n\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Fentanyl", 
+                "Synthetic phenylpiperidine<div><img src=\"paste-1679332212892.jpg\" /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia component of GA</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Combination with tranquilizer to produce neuroleptanalgesia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia during labour when regional anaesthesia is not in use</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Premedication</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Palliative care</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clear, colourless solution: 50 microg/mL of fentanyl citrate</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Transdermal patches: 12/25/50/75/100 microg/hour over 72 hr</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Sublingual tabs 100/200/400/600/800 microg</div><div><br /></div>", 
+                "<div>Highly selective mu-agonist (MOP)</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Premedication IM: 50-100 microg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Induction: IV 1-100 microg/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Epidural: 50-100 microg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Spinal: 5- 25 microg</div><div><br /></div>", 
+                "<div>&nbsp;•\tOnset&nbsp;</div><div>&nbsp;◦\t2-5 minutes&nbsp;</div><div><br /></div><div>&nbsp;•\tDuration of Action&nbsp;</div><div>&nbsp;◦\t30-60 min (small dose)</div><div>&nbsp;◦\t4-6 hours (high dose &gt; 50 microg/kg)&nbsp;</div><div>&nbsp;◦\tPatches: equilibrium conc 12-24 hours\n</div><div><br /></div>", 
+                "PO, IM, Subcut, IV, Epidural, Intrathecal", 
+                "<div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia (50-80 times more potent than morphine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Little hypnotic/sedative activity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Miosis (stimulates EW nucleus)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Nausea and Vomiting may occur</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bradycardia (vagal) - most significant</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on CO, MAP, PVR/SVR, pulmonary capillary wedge pressure</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Obtunds cardiovascular response to laryngoscopy/intubation</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Portent respiratory depressant: decreases RR and TV</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces ventilatory response to hypoxia/hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Anti-tussive</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Chest wall rigidity (\"wooden chest phenomenon\"</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Minimal histamine release (rarely bronchospasm)</div><div><br /></div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Endocrine</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>High doses obtund the metabolic stress response to surgery</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on WBC function</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Does not increase activity of ADH (unlike morphine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases GI motility</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases gastric acid secretion</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Doubles CBD pressure by causing sphincter of Oddi spasm</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Other</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Increases tone of ureters/bladder detrusor muscle and vesicular sphincter</div><div><br /></div>", 
+                "", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bioavailability of 33 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Becomes highly ionised in the stomach (99.9 %) --&gt; slow absorption&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Transdermal - 47 % absorption at 24 hours; 88 % &nbsp;at 48 hours, 94 % at 72 hours</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Protein Binding - ~90 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Vd 0.88-4.41 L/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Short duration of action d/t redistribution</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Continuous administration --&gt; tissue saturation and prolonged duration&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Lipid soluble (more so than morphine) - crosses BBB more easily</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Much more rapid onset of action than morpine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Intrathecal admin doesn’t cause delayed resp depression (unlike morphine) because it is rapidly absorbed into the spinal cord</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Primarily by N-dealkylation to norfentanyl&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Fentanyl + Norfentanyl undergo hydroxylation to hydoxypropionyl derivatives</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Also hydroxylation and amide hydrolysis</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Mainly by Cytochrome P450 3A4 (in liver and intestine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Non-active metabolites</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>10 % of fentanyl excreted in urine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clearance 13 ml/kg/min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Elimination half life 141-853 min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduced clearance in renal and hepatic impairment</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>PO ritonavir = potent inhibitor of CYP3A4, prolongs clearance by 2/3</div><div><br /></div>", 
+                "", 
+                "5", 
+                "", 
+                "Drugs in Anasesthesia and Intensive Care (Oxford)", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>pKa 8.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>9 % ionized at pH 7.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Highly lipid soluble (octanol:water coefficient 717)</div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "Cm>w`jhXM2", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "opioids", 
+                "pharmacology,"
+            ]
+        }
+    ]
+}
