@@ -21,7 +21,7 @@
             "maxTaken": 60, 
             "name": "Default", 
             "new": {
-                "bury": true, 
+                "bury": false, 
                 "delays": [
                     1, 
                     10
@@ -38,7 +38,7 @@
             }, 
             "replayq": true, 
             "rev": {
-                "bury": true, 
+                "bury": false, 
                 "ease4": 1.3, 
                 "fuzz": 0.05, 
                 "ivlFct": 1.0, 
@@ -535,6 +535,35 @@
             ], 
             "flags": 0, 
             "guid": "N*cU.GzrA1", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "testes", 
+                "testes", 
+                "testes", 
+                "testes", 
+                "testes", 
+                "testes", 
+                "testes", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "h[3~GsBCL{", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
         }
