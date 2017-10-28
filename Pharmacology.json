@@ -7,7 +7,7 @@
         {
             "__type__": "DeckConfig", 
             "autoplay": true, 
-            "crowdanki_uuid": "e49985dc-bbac-11e7-984b-f40f241a83b0", 
+            "crowdanki_uuid": "fd4483b8-bbaf-11e7-86f5-f40f241a83b0", 
             "dyn": false, 
             "lapse": {
                 "delays": [
@@ -19,9 +19,9 @@
                 "mult": 0.0
             }, 
             "maxTaken": 60, 
-            "name": "Default", 
+            "name": "Pharmacology", 
             "new": {
-                "bury": true, 
+                "bury": false, 
                 "delays": [
                     1, 
                     10
@@ -38,7 +38,7 @@
             }, 
             "replayq": true, 
             "rev": {
-                "bury": true, 
+                "bury": false, 
                 "ease4": 1.3, 
                 "fuzz": 0.05, 
                 "ivlFct": 1.0, 
