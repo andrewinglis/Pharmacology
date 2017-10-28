@@ -343,10 +343,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "cardiology", 
-                "cardiovascular-drugs"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Uses}}\n<br>\n{{Source}}", 
@@ -511,6 +508,35 @@
                 "opioids", 
                 "pharmacology,"
             ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "test", 
+                "test", 
+                "test", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "N*cU.GzrA1", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
         }
     ]
 }
