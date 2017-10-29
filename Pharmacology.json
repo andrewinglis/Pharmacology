@@ -54,7 +54,8 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
-        "paste-1679332212892.jpg"
+        "paste-1679332212892.jpg", 
+        "med-9780198768814-graphic-010-full.jpg"
     ], 
     "name": "Pharmacology", 
     "note_models": [
@@ -537,6 +538,37 @@
             "guid": "ee;+p=Mtt7", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Suxamethonium", 
+                "Depolarising neuromuscular blocking agent<div><img src=\"med-9780198768814-graphic-010-full.jpg\" /></div><div>The dicholine ester of succinic acid (equivalent to two acetylcholine molecules joined back-to-back).</div>", 
+                "<div>Suxamethonium is used:</div><div><br /></div><div>&nbsp; &nbsp; 1. wherever rapid and profound neuromuscular blockade is required, e.g. to facilitate tracheal intubation and</div><div><br /></div><div>&nbsp; &nbsp; 2. for the modification of fits after electroconvulsive therapy.</div>", 
+                "As a clear aqueous solution containing 50 mg/ml of suxamethonium chloride; the preparation should be stored at 4°C", 
+                "Neuromuscular blockade of brief duration in skeletal muscle.&nbsp;<div><br /></div><div>Acts on the nicotinic Ach receptor in the post-synaptic membrane of the neuromuscular junction. Causes prolonged depolarization of skeletal muscle fibres to a membrane potential above which an action potential can be triggered.</div><div><div><br /></div></div>", 
+                "The intravenous dose is 0.5– 2.0 mg/kg; the onset of action occurs within 30 seconds, and the duration of action is 3–5 minutes. Infusion of a 0.1% solution at 2–15 mg/kg/hour will yield 90% twitch depression. The intramuscular dose is up to 2.5 mg/kg. Equal doses on a mg/kg basis have a shorter duration of action in infants. The drug may also be administered sublingually at a dose of 2 mg/kg<div><br /></div><div>Total body weight should be used to calculate drug dosage in morbidly obese individuals.</div>", 
+                "The intravenous dose is 0.5– 2.0 mg/kg;<b><font color=\"#2b2cff\"> the onset of action occurs within 30 seconds, and the duration of action is 3–5 minutes.</font></b>&nbsp;<div><br /></div><div><b><font color=\"#2b2cff\">Equal doses on a mg/kg basis have a shorter duration of action in infants.</font></b>&nbsp;<div><br /></div></div>", 
+                "IV, IM, SL, infusion", 
+                "<div>CVS</div><div>With repeated doses of suxamethonium, bradycardia and a slight increase in mean arterial pressure may occur.</div><div><br /></div><div>RS</div><div>Apnoea occurs subsequent to skeletal muscle paralysis.</div><div><br /></div><div>CNS</div><div>The administration of suxamethonium may initially cause fasciculations which are then followed by a phase I depolarizing block. The characteristics of this during partial paralysis are:</div><div><br /></div><div>&nbsp; &nbsp; 1. well-sustained tetanus during stimulation at 50–100 Hz</div><div><br /></div><div>&nbsp; &nbsp; 2. the absence of post-tetanic facilitation</div><div><br /></div><div>&nbsp; &nbsp; 3. train-of-four ratio &gt;0.7 and</div><div><br /></div><div>&nbsp; &nbsp; 4. potentiation by anticholinesterases.</div><div><br /></div><div>With repeated administration or a large total dose, a phase II block may develop. The characteristics of this during partial paralysis are:</div><div><br /></div><div>&nbsp; &nbsp; 1. poorly sustained tetanus</div><div><br /></div><div>&nbsp; &nbsp; 2. post-tetanic facilitation</div><div><br /></div><div>&nbsp; &nbsp; 3. train-of-four ratio &lt;0.3</div><div><br /></div><div>&nbsp; &nbsp; 4. reversal by anticholinesterases and</div><div><br /></div><div>&nbsp; &nbsp; 5. tachyphylaxis.</div><div><br /></div><div>Intracranial and intraocular pressures are both raised, following the administration of suxamethonium.</div><div><br /></div><div>AS</div><div>The intragastric pressure increases by 7–12 cmH2O; the lower oesophageal sphincter tone simultaneously decreases with the use of suxamethonium. Salivation and gastric secretions are increased.</div><div><br /></div><div>Metabolic/other</div><div>Serum potassium concentration is briefly increased in normal individuals by 0.2–0.4 mmol/l.</div>", 
+                "<div>Eight side effects (dr podcast)</div><div><br /></div><div>1) Myalgia&nbsp;- common, especially in women, the middle-aged, and those ambulant early in the post-operative period.&nbsp;</div><div>2) Disrhythmias - most commonly bradycardia, usually sinus or nodal but could be ventricular. Most commonly in paeds and with&nbsp;repeated dosing.</div><div>3) HyperK - In most individuals a transient rise of 0.5mmol/L occurs which rapidly resolves. Hyperkalaemic response is markedly exaggerated in patients with burns or major denervation of muscle and acute or chronic renal failure; this may lead to cardiac arrest.&nbsp;</div><div><br /></div><div>4) &nbsp;Intraocular pressure is transiently raised (10-15mmHg) following the use of suxamethonium—the drug should be used with caution in patients with penetrating eye injuries. Thiopentone can offset</div><div><br /></div><div>5) Raised intragastric pressure - increases by 7–12 cmH2O; the lower oesophageal sphincter tone simultaneously decreases with the use of suxamethonium.</div><div><br /></div><div>6) There have been many reports of fatal anaphylactoid reactions with the administration of suxamethonium.</div><div><br /></div><div>7)&nbsp;Suxamethonium apnoea</div><div><br /></div><div>8) MH -&nbsp;Suxamethonium is a potent trigger agent for the development of malignant hyperthermia and may cause generalized contractures in those patients exhibiting myotonia. &nbsp;</div><div><br /></div><div>Cross-sensitivity exists with many of the non-depolarizing drugs, following administration of suxamethonium.</div>", 
+                "Absorbed poorly and to varying extent from GI tract (as are other quarternary ammoniums)", 
+                "An initial rapid redistribution phase may contribute to the brief duration of action of the drug. Suxamethonium appears to be protein-bound to an unknown extent.", 
+                "The drug is hydrolysed by plasma cholinesterase (EC 3.1.1.8) to succinylomonocholine (which is weakly active) and choline; the former is further hydrolysed by plasma cholinesterase to succinic acid and choline. Eighty percent of an administered dose is hydrolysed before it reaches the neuromuscular junction.", 
+                "2–10% of an administered dose is excreted unchanged in the urine. The in vivo hydrolysis rate is 3–7 mg/l/min, and the half-life 2.7– 4.6 minutes.", 
+                "2", 
+                "4", 
+                "5", 
+                "Oxford drugs + Dr Podcast<div>https://pubchem.ncbi.nlm.nih.gov/compound/succinylcholine#section=Top</div>", 
+                "The dicholine ester of succinic acid (equivalent to two acetylcholine molecules joined back-to-back).<div><br /></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>290.404 g/mol</div><div><br /></div><div>Suxamethonium is pharmaceutically incompatible with thiopental.</div><div>Incompatible with alkaline compounds, must be kept refrigerated</div>"
+            ], 
+            "flags": 0, 
+            "guid": "m_wkCd~K4y", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "NMBA"
+            ]
         }
     ]
 }
