@@ -57,8 +57,79 @@
         "paste-1679332212892.jpg", 
         "med-9780198768814-graphic-010-full.jpg"
     ], 
+    "mid": 1498440676344, 
     "name": "Pharmacology", 
     "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "cf6f413a-41bb-11e7-ba9b-f40f241a83b0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Card ID", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "ANZCA", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}<br>\n<br>\nSource: {{Source}}<br>\n\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
@@ -491,14 +562,14 @@
                 "<div>&nbsp;•\tOnset&nbsp;</div><div>&nbsp;◦\t2-5 minutes&nbsp;</div><div><br /></div><div>&nbsp;•\tDuration of Action&nbsp;</div><div>&nbsp;◦\t30-60 min (small dose)</div><div>&nbsp;◦\t4-6 hours (high dose &gt; 50 microg/kg)&nbsp;</div><div>&nbsp;◦\tPatches: equilibrium conc 12-24 hours\n</div><div><br /></div>", 
                 "PO, IM, Subcut, IV, Epidural, Intrathecal", 
                 "<div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia (50-80 times more potent than morphine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Little hypnotic/sedative activity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Miosis (stimulates EW nucleus)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Nausea and Vomiting may occur</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bradycardia (vagal) - most significant</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on CO, MAP, PVR/SVR, pulmonary capillary wedge pressure</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Obtunds cardiovascular response to laryngoscopy/intubation</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Portent respiratory depressant: decreases RR and TV</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces ventilatory response to hypoxia/hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Anti-tussive</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Chest wall rigidity (\"wooden chest phenomenon\"</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Minimal histamine release (rarely bronchospasm)</div><div><br /></div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Endocrine</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>High doses obtund the metabolic stress response to surgery</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on WBC function</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Does not increase activity of ADH (unlike morphine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases GI motility</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases gastric acid secretion</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Doubles CBD pressure by causing sphincter of Oddi spasm</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Other</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Increases tone of ureters/bladder detrusor muscle and vesicular sphincter</div><div><br /></div>", 
-                "", 
+                "Respiratory depression may occur post-operatively, possibly related to the appearance of a secondary peak in the plasma fentanyl concentration due to elution from muscle. Nausea, vomiting, and dependence may also complicate the use of the drug.", 
                 "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bioavailability of 33 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Becomes highly ionised in the stomach (99.9 %) --&gt; slow absorption&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Transdermal - 47 % absorption at 24 hours; 88 % &nbsp;at 48 hours, 94 % at 72 hours</div><div><br /></div>", 
                 "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Protein Binding - ~90 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Vd 0.88-4.41 L/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Short duration of action d/t redistribution</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Continuous administration --&gt; tissue saturation and prolonged duration&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Lipid soluble (more so than morphine) - crosses BBB more easily</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Much more rapid onset of action than morpine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Intrathecal admin doesn’t cause delayed resp depression (unlike morphine) because it is rapidly absorbed into the spinal cord</div><div><br /></div>", 
                 "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Primarily by N-dealkylation to norfentanyl&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Fentanyl + Norfentanyl undergo hydroxylation to hydoxypropionyl derivatives</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Also hydroxylation and amide hydrolysis</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Mainly by Cytochrome P450 3A4 (in liver and intestine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Non-active metabolites</div><div><br /></div>", 
                 "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>10 % of fentanyl excreted in urine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clearance 13 ml/kg/min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Elimination half life 141-853 min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduced clearance in renal and hepatic impairment</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>PO ritonavir = potent inhibitor of CYP3A4, prolongs clearance by 2/3</div><div><br /></div>", 
-                "", 
                 "5", 
-                "", 
+                "5", 
+                "6", 
                 "Drugs in Anasesthesia and Intensive Care (Oxford)", 
                 "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>pKa 8.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>9 % ionized at pH 7.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Highly lipid soluble (octanol:water coefficient 717)</div><div><br /></div>"
             ], 
@@ -569,6 +640,20 @@
             "tags": [
                 "NMBA"
             ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What dose of fentanyl is used for intubation in paediatric cases?", 
+                "2 micrograms/kg", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mq`X=(M#G7", 
+            "note_model_uuid": "cf6f413a-41bb-11e7-ba9b-f40f241a83b0", 
+            "tags": []
         }
     ]
 }
