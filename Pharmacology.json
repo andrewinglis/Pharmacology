@@ -54,10 +54,11 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
-        "paste-824633721001.jpg", 
-        "paste-1679332212892.jpg", 
+        "220px-Morphin_-_Morphine.svg.png", 
         "paste-1331439861913.jpg", 
         "med-9780198768814-graphic-010-full.jpg", 
+        "paste-824633721001.jpg", 
+        "paste-1679332212892.jpg", 
         "rox-590x353.jpg"
     ], 
     "mid": 1498440676344, 
@@ -418,7 +419,9 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "opioids"
+            ], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Uses}}\n<br>\n{{Source}}", 
@@ -745,6 +748,37 @@
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": [
                 "NMBA"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Morphine", 
+                "a phenanthrene derivative<div><br /></div><div><img src=\"220px-Morphin_-_Morphine.svg.png\" /></div>", 
+                "<div>1. For premedication</div><div>2. Analgesic for moderate to severe pain</div><div>3. Naloxone does not reverse analgesia effects of epidural morphine</div><div>4. Treatment of LV failure</div><div>5. Analgesia in terminal care</div><div>6. Combination with kaolin in symptomatic treatment of diarrhoea</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Tablets: 5/10/30/60/100/200 mg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Syrup: 2/10/30 mg/mL</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Suppositories: 15/30 mg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ IV: 10/15/30 mg/mL of morphine surface</div><div>Preservative-free formulations for spinal/epidural use</div>", 
+                "Mu and Kappa agonist", 
+                "<div>PO: 5-20 mg q 4 hours</div><div>PR: 15-30 mg q 4hours</div><div>IM/SC: 0.1-0.2 mg/kg</div><div>IV: 0.05-0.1 mg/kg q 3-4 hours</div><div>Intrathecal: 0.2-1 mg</div>", 
+                "Peak analgesic effect 30-60 min (IM)<div><br /></div><div>3-4 hours duration</div>", 
+                "IV, PO, IM, PR, Intrathecal", 
+                "<div><b>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Potent analgesia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Drowsiness</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anxiolysis</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Euphoria</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Miosis (EW stimulation)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Seizures and muscular rigidity at high doses</div><div><b>CVS</b> (minimal effects)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Orthostatic hypotension (due to drop in SVR)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>§ Partly due to histamine release</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Bradycardia at high doses</div><div><b>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Respiratory depression</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Decreased ventilatory response to hypoxia and hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anti-tussive</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Bronchoconstriction at high doses</div><div><b>Endocrine</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Transient decrease in adrenal steroid scretion</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Diaphoresis/pruritus from histamine release</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Increases ADH secretion (hypnonatraemia)</div><div><b>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Decreases motility</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Decreases secretion of gastric acid, biliary and pancreatic secretions</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Increases CBD pressure --&gt; N/V + constipation</div><div><b>Other</b></div><div>The drug increases the tone of the ureters, bladder detrusor muscle, and sphincter, and may precipitate urinary retention.</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Respiratory depression, nausea and vomiting, hallucinations, and dependence may complicate the use of morphine. Pruritus may occur after epidural or spinal administration of the drug.</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ May precipitate encephalopathy in presence of hepatic failure</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ May precipitate coma in presence of hypopituitarism</div><div>Not removed by haemodialysis or peritoneal dialysis</div>", 
+                "PO: Bioavailability 15-50 % (extensive first pass metabolism)", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Protein Binding: 20-40 % (mainly albumin)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Vd: 3.4-4.7 L/kg</div><div>No clear correlation between degree of analgesia and plasma concentration</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Liver: glucurodination to morphine 3-glucuronide (70 %), morphine 6-glucoronide (5-10 %) and normorphine (20-25%)</div><div>The 6-glucuronide is more potent than morphine&nbsp;</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Urinary excretion of glucuronide conjugates</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ 7-10 % appears in faeces as conjugated morphine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Clearance 12-23 mL/min/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Elimination Half Life 1.7-4.5 hours</div><div>Accumulation of morphine 6-glucuronide occurs in renal failure</div>", 
+                "6", 
+                "5", 
+                "6", 
+                "Oxford Drugs and Dr. Podcast", 
+                "pKa 8.21<div><br /></div><div>MW 285.34 g/mol</div>"
+            ], 
+            "flags": 0, 
+            "guid": "kb.u{r[b}s", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "opioids"
             ]
         }
     ]
