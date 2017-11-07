@@ -57,7 +57,8 @@
         "paste-824633721001.jpg", 
         "paste-1679332212892.jpg", 
         "paste-1331439861913.jpg", 
-        "med-9780198768814-graphic-010-full.jpg"
+        "med-9780198768814-graphic-010-full.jpg", 
+        "rox-590x353.jpg"
     ], 
     "mid": 1498440676344, 
     "name": "Pharmacology", 
@@ -714,6 +715,37 @@
             "guid": "x:6K|IRm71", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Rocuronium", 
+                "<div>Non-depolarising muscle relaxant</div><div>Aminosteroid</div><div><img src=\"rox-590x353.jpg\" /></div>", 
+                "<div>Rocuronium is used:</div><div><br /></div><div>&nbsp; &nbsp; 1. to facilitate tracheal intubation during routine and modified rapid sequence induction</div><div><br /></div><div>&nbsp; &nbsp; 2. for controlled ventilation.</div>", 
+                "As a clear, colourless solution containing 50 mg/5ml of rocuronium bromide, in clear glass ampoules", 
+                "Competitive neuromuscular blockade.<div><br /></div><div>Rocuronium acts by competitively binding to the\b alpha subunit(s) of the nicotinic cholinergic receptors (nAChRs) at the postjunctional membrane of the neuromuscular junction, which decreases the opportunity for acetylcholine to bind.&nbsp;Does not cause conformational change in receptor therefore non-depolarising.&nbsp;As a result, the ion channel is non-functional, depolarisation is prevented, calcium ions are not released and muscle contraction does not occur.&nbsp;</div><!--anki--><div><br /></div><div>Evidence also suggests that nondepolarising agents can affect ACh release by action on presynaptic nAChRs.&nbsp;</div><div><br /></div><div>80% of receptors need to be blocked to prevent NMJ transmission</div>", 
+                "Rocuronium is administered intravenously; <font color=\"#2b2cff\">the normal intubating dose is 0.6 mg/kg, with subsequent doses of 0.15 mg/kg.</font> This intubating dose equates to twice the ED90 for rocuronium (ED90 0.3 mg/kg) and results in ‘excellent’ intubating conditions in 80% of cases within 60 seconds. <font color=\"#2b2cff\">A dose of 1 mg/kg is recommended when rocuronium is used during modified rapid sequence induction,</font> resulting in intubating conditions within 60 seconds in 93–96%<div><br /></div><div><span style=\"color: rgb(43, 44, 255)\">The drug may also be infused at a rate of 300–600 micrograms/kg/hour. The drug is non-cumulative with repeated administration.</span></div>", 
+                "Rocuronium is administered intravenously; the <font color=\"#2b2cff\">normal intubating dose</font> is 0.6 mg/kg, with subsequent doses of 0.15 mg/kg. This intubating dose equates to twice the ED90 for rocuronium (ED90 0.3 mg/kg) and <font color=\"#2b2cff\">results in ‘excellent’ intubating conditions in 80% of cases within 60 seconds. </font>A dose of 1 mg/kg is recommended when rocuronium is used <font color=\"#2b2cff\">during modified rapid sequence induction, resulting in intubating conditions within 60 seconds in 93–96%</font><div><font color=\"#2b2cff\"><br /></font></div><div><font color=\"#2b2cff\">The duration of action relates to the dose given, and, as a result, the usual recovery index of 8–17 minutes with a normal intubating dose is increased to nearly an hour when 1.0 mg/kg is used.&nbsp;</font></div>", 
+                "1", 
+                "<div>CVS</div><div><br /></div><div>Rocuronium has minimal cardiovascular effects; with large doses, a mild vagolytic effect leads to a slight (9%) increase in the heart rate and an increase in the mean arterial pressure of up to 16%.</div><div><br /></div><div>RS</div><div><br /></div><div>Neuromuscular blockade leads to apnoea. Rocuronium causes an insignificant release of histamine; bronchospasm is extremely uncommon.</div><div><br /></div>", 
+                "There have been very rare reports of fatal anaphylactoid reactions with the administration of rocuronium. Cross-sensitivity may exist with other aminosteroid compounds (vecuronium, pancuronium). Pain on injection occurs in 16% of subjects when rocuronium is used in combination with propofol, compared with 0.5% of subjects when thiopental is used.", 
+                "IV drug. Poorly absorbed from GI tract", 
+                "The drug is 30% protein-bound in the plasma; the VD is 0.27 l/kg", 
+                "Depending on the source you read - no metabolites or some de-acetylated metabolites are found but mostly excreted unchanged.&nbsp;", 
+                "Rocuronium is excreted primarily by hepatic uptake and hepatobiliary excretion. 30 to 40% of the dose is excreted unchanged in the bile, 13–31% in the urine. After administration of a bolus dose, the plasma concentration time course runs in three exponential phases. In adults, the mean elimination half-life is 73 (66–80) minutes, with a plasma clearance of 3.7 (3.5–3.9) ml/kg/min. The pharmacokinetics of rocuronium are not significantly altered in the presence of renal failure. The mean elimination half-life is prolonged by 30 minutes, and the mean plasma clearance is reduced by 1 ml/kg/min in the presence of hepatic dysfunction; the duration of action is correspondingly increased.", 
+                "2", 
+                "1", 
+                "2", 
+                "Oxford drugs<div>Dr podcast</div><div>https://www.drugbank.ca/drugs/DB00728</div><div>Adam Hollingworth</div><div>https://www.openanesthesia.org/neuromuscular_blockade_anesthesia_text/</div>", 
+                "<div><div>An aminosteroid (Mono quarternary amine)</div></div><div>Structurally, rocuronium resembles vecuronium except for the presence of a hydroxyl group rather than an acetyl group on the A-ring of the steroid nucleus.&nbsp;</div><div><br /></div><div>Molecular Weight<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>529.786 g/mol</div>"
+            ], 
+            "flags": 0, 
+            "guid": "H7ip-x2Oy!", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "NMBA"
+            ]
         }
     ]
 }
