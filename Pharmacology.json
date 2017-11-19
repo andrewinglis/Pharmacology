@@ -54,6 +54,7 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
+        "Warfarin.svg", 
         "220px-Morphin_-_Morphine.svg.png", 
         "paste-1331439861913.jpg", 
         "med-9780198768814-graphic-010-full.jpg", 
@@ -61,7 +62,7 @@
         "paste-1679332212892.jpg", 
         "rox-590x353.jpg"
     ], 
-    "mid": 1498440676344, 
+    "mid": "1509195045129", 
     "name": "Pharmacology", 
     "note_models": [
         {
@@ -420,7 +421,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "opioids"
+                "anticoagulants"
             ], 
             "tmpls": [
                 {
@@ -779,6 +780,37 @@
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": [
                 "opioids"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Warfarin", 
+                "A synthetic coumarin derivative.&nbsp;<div>Warfarin consists of a racemic mixture of two active enantiomers—R- and S- forms—each of which is cleared by different pathways. S-warfarin is 2-5 times more potent than the R-isomer in producing an anticoagulant response</div><div><br /></div><div><img src=\"Warfarin.svg\" /></div><div><br /></div>", 
+                "<div>Anticoagulation for prophylaxis and/or treatment of venous thrombosis, pulmonary</div><div>embolism, thromboembolism associated with atrial fibrillation or prosthetic valve insertion.</div><div><br /></div><div>Can also be used for post-STEMI prophylaxis and for maintenance therapy post treatment for HIT</div><div><br /></div><div><div>Anticoagulants have no direct effect on established thrombus but prevent further extension of the formed clot.</div></div>", 
+                "As tablets containing 1/2/3/5 mg of a racemic mixture of warfarin sodium.", 
+                "Warfarin prevents the synthesis of the vitamin K-dependent clotting factors (II, VII, IX, and X) as well as the regulatory factors protein C, protein S, (and protein Z) in the liver.&nbsp;<div>Warfarin has no effect on circulating clotting factors.</div><div><br /></div><div>The formation of fully active clotting factors is dependent on the gamma carboxylation by gamma-glutamyl carboxylase&nbsp;of their glutamic acid residues of their precursor proteins&nbsp;to allow the coagulation factors to bind to phospholipid surfaces on the vascular endothelium. During this reaction, vitamin K is oxidized to vitamin K 2,3-epoxide; warfarin inhibits vitamin K epoxide reductase which prevents the reduction of this epoxide back to vitamin K. This results in vitamin K depletion and a decrease in the rate of formation of complete clotting factors.&nbsp;</div><div><div><br /></div><div><div>Therapeutic warfarin doses decrease the total amount of the active form of each vitamin K dependent factor made by the liver by approximately 30-50%.</div></div></div>", 
+                "The dosage is individualised according to the patient’s sensitivity to the drug as indicated by their INR. Most patients are satisfactorily maintained with a dose of 2 to 10mg daily.<div><br /></div><div>Several studies have shown that a loading regimen of 5mg/5mg/5mg produces a therapeutic INR by day 4 to 5 as rapidly as higher dosed regimens but with a reduced risk of bleeding complications. In patients after cardiac surgery, a loading regimen of 2.5mg for the first 2 days with the third dose adjusted only if the INR was &lt;1.5 or &gt;3.0 has been shown to reduce excessive anticoagulation; this is the recommended dosing schedule in these patients</div><div><br /></div><div><div>Recommended INR ranges:</div><div>VTE, Atrial fibrillation, Bioprosthetic heart valves 2.0-3.0&nbsp;</div><div>Mechanical heart valves 2.5-3.5</div></div><div><br /></div><div><div>DOSAGE IN RENAL FAILURE AND RENAL REPLACEMENT THERAPY:</div><div>Dose as in normal renal function. Active metabolites may accumulate in renal failure. Not dialysed.</div></div>", 
+                "An anticoagulant effect generally occurs within 24 hours after drug administration, however peak anticoagulant effect may be delayed by 72-96 hours. The duration of action of a single dose of warfarin is 2-5 days.", 
+                "Oral only", 
+                "No other effects apart from anti-coagulation<div><br /></div><div>(from uses:&nbsp;Anticoagulation for prophylaxis and/or treatment of venous thrombosis, pulmonary</div><div>embolism, thromboembolism associated with atrial fibrillation or prosthetic valve insertion.</div><div><br /></div><div><div>Anticoagulants have no direct effect on established thrombus but prevent further extension of the formed clot.)</div></div>", 
+                "Haemorrhage is the most frequent side effect. Hypersensitivity reactions and gastrointestinal upsets may occur. The drug appears to be teratogenic if taken during pregnancy.<div><br /></div><div>Warfarin may potentiate a more hypercoagulable state in the first 24-48 hours due to the more rapid depletion of the anticoagulant proteins C &amp; S when compared to the clotting factors with longer half-lives.&nbsp;As such, any concomitant anticoagulant therapy such as Heparin or Enoxaparin should be continued until the desired therapeutic INR is reached. This initial pro-coagulant effect is increased with the use of higher loading doses.</div><div><br /></div><div>Necrosis &amp; gangrene of skin and other tissues is seen less frequently (&lt;0.1%) and usually appears within a few days of the start of therapy.</div><div><br /></div><div>Spinal and epidural anaesthesia are contraindicated in patients anticoagulated with warfarin.</div><div><br /></div><div>Significant drug interactions with warfarin could be considered a toxicity / side effect</div><div><div><div>Highly protein bound drugs such as NSAIDs, oral hypoglycaemic agents, diuretics</div><div>and amiodarone displace warfarin from the protein binding sites, resulting in higher free</div><div>drug levels and potentiation of its effect. Broad spectrum antibiotics, reduced vitamin K</div><div>intake and cimetidine potentiate the effect of warfarin.</div><div>The effect of warfarin may be reduced by induction of hepatic enzymes by barbiturates</div><div>and phenytoin. Oestrogens increase the production of vitamin K-dependent clotting factors&nbsp;and decrease effectiveness.</div></div></div><div><br /></div><div>Other side effects include osteoporosis and purple toe syndrome</div><div><br /></div>", 
+                "The drug is rapidly and completely absorbed from the stomach and upper gastrointestinal tract, and has an oral bioavailability of 100%.", 
+                "Warfarin is 99% protein-bound in the serum, predominantly to albumin. The VD is 0.1–0.16 l/kg.", 
+                "Warfarin is virtually completely metabolized in the liver.&nbsp;Both the enantiomers of warfarin undergo CYP-mediated metabolism by many different CYPs to form 3',4',6,7,8 and 10-hydroxy warfarin metabolites, major being 7-OH warfarin formed from S-warfarin by CYP2C9 and 10-OH warfarin from R-warfarin by CYP3A4; these metabolites are then conjugated with glucuronide.<div><br /></div><div>Warfarin activity is determined partially by genetic factors. Polymorphisms in two genes (VKORC1 and CYP2C9) play a particularly large role in response to warfarin.VKORC1 polymorphisms explain 30% of the dose variation between patients. CYP2C9 polymorphisms explain 10% of the dose variation between patients, mainly among Caucasian patients</div><div><br /></div>", 
+                "The metabolites are excreted in the faeces and urine. The clearance is 3.26–3.8 ml/min/kg, and the elimination half-life of warfarin ranges from 35 to 45 hours; this is decreased in patients with renal impairment.", 
+                "1", 
+                "1", 
+                "1", 
+                "Oxford Drugs<div>Wellington ICU manual</div><div>wiki</div><div>https://www.drugs.com/monograph/warfarin-sodium.html</div>", 
+                "Slightly bitter crystalline powder.&nbsp;330g/mol"
+            ], 
+            "flags": 0, 
+            "guid": "eh6}qnHo40", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "anticoagulants"
             ]
         }
     ]
