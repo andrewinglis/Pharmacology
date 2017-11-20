@@ -54,13 +54,15 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
-        "Warfarin.svg", 
         "220px-Morphin_-_Morphine.svg.png", 
-        "paste-1331439861913.jpg", 
         "med-9780198768814-graphic-010-full.jpg", 
         "paste-824633721001.jpg", 
         "paste-1679332212892.jpg", 
-        "rox-590x353.jpg"
+        "paste-1696512082370.jpg", 
+        "Warfarin.svg", 
+        "paste-1331439861913.jpg", 
+        "rox-590x353.jpg", 
+        "Aspirin-skeletal.svg"
     ], 
     "mid": "1509195045129", 
     "name": "Pharmacology", 
@@ -420,9 +422,7 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [
-                "anticoagulants"
-            ], 
+            "tags": [], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Uses}}\n<br>\n{{Source}}", 
@@ -812,6 +812,35 @@
             "tags": [
                 "anticoagulants"
             ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Aspirin", 
+                "Anti-platelet agent<div><br /></div><div><img src=\"Aspirin-skeletal.svg\" /></div>", 
+                "<div>&nbsp; &nbsp; 1. for the treatment of pain of mild to moderate severity and severe bone pain</div><div><br /></div><div>&nbsp; &nbsp; 2. as an anti-inflammatory agent, e.g. in rheumatoid arthritis and osteoarthritis (also kawasaki disease, GCA)</div><div><br /></div><div>&nbsp; &nbsp; 3. as an antipyretic</div><div><br /></div><div>&nbsp; &nbsp; 4. Vascular indications (ischemic stroke, transient ischemic attack, acute myocardial infarction, prevention of recurrent myocardial infarction, unstable angina, and chronic stable angina)</div><div><br /></div><div>&nbsp; &nbsp; 5. Revascularization procedures: In patients who have undergone revascularization procedures (ie, coronary artery bypass graft [CABG], percutaneous transluminal coronary angioplasty, or carotid endarterectomy).&nbsp;</div><div><br /></div><div>&nbsp; &nbsp; 6. in the treatment of pre-eclampsia</div><div><br /></div><div>&nbsp; &nbsp; 7. ?primary prevention of CRC</div><div><br /></div>", 
+                "As 75/100/300/600 mg tablets of aspirin and in a variety of fixed-dose combinations.", 
+                "Aspirin acetylates, and thereby inhibits, the enzyme cyclo-oxygenase (COX1 in low doses, COX1 and 2 in higher) which converts arachidonic acid to cyclic endoperoxides, thus preventing the formation of prostaglandins and thromboxanes. Prostaglandins are involved in the sensitization of peripheral pain receptors to noxious stimuli. It may also inhibit the lipo-oxygenase pathway by an action on hydroperoxy fatty acid peroxidase. The drug inhibits cyclo-oxygenase irreversibly in platelets (as they have no DNA), but not in the endothelium. This inhibition leads to reduced TXA2 levels which leads to inhibition of platelet aggregation.&nbsp;<div><div><div><img src=\"paste-1696512082370.jpg\" /></div></div></div>", 
+                "The adult oral dose is 300–900 mg, 6- to 8-hourly (analgesic)<div>300mg acute MI (600mg PR if cannot tolerate PO)</div><div>100mg daily for prophylaxis</div><div><br /></div><div>aspirin is not recommended for use in children under 12 years of age.</div>", 
+                "<div>Platelet inhibition: Within 1 hour (nonenteric-coated). Onset of enteric-coated aspirin expected to be delayed (Eikelboom 2012). Note: Chewing nonenteric-coated or enteric-coated tablets results in inhibition of platelet aggregation within 20 minutes; therefore, nonenteric-coated tablets should be chewed in settings where a more rapid onset is required (eg, acute MI).</div><div><br /></div><div>Duration of immediate release: 4 to 6 hours; however antiplatelet effects lasts 8-10 days (the life of the platelet).&nbsp;</div>", 
+                "PO, PR", 
+                "<div>CVS</div><div><br /></div><div>Aspirin has minimal haemodynamic effects at normal doses; however, platelet aggregation is inhibited, and bleeding time is increased by a decrease in thromboxane A2 production (with large doses, the concentration of prothrombin is decreased).</div><div><br /></div><div>RS</div><div><br /></div><div>Therapeutic doses of aspirin increase oxygen consumption and CO2 production by uncoupling oxidative phosphorylation. Overdosage may lead to hyperventilation (by a direct action of the drug on the respiratory centre), pulmonary oedema, and respiratory failure.</div><div><br /></div><div>CNS</div><div><br /></div><div>The analgesic effect of the drug appears to be exerted by both central and peripheral mechanisms; the antipyretic effect may be a manifestation of inhibition of prostaglandin synthesis at the hypothalamic level.</div><div><br /></div><div>AS</div><div><br /></div><div>Aspirin increases gastric acid production.</div><div><br /></div><div>GU</div><div><br /></div><div>The drug may cause proteinuria and an increase in the number of renal tubular casts appearing in the urine. Aspirin is uricosuric in high doses but paradoxically decreases urate excretion at low doses.</div><div><br /></div><div><div>Metabolic/other</div><div><br /></div><div>Blood sugar tends to decrease with low doses and increase with high doses of aspirin. Transient elevation of serum urea concentrations and elevation of liver enzymes may occur. Lipogenesis is decreased; very large doses of aspirin stimulate steroid secretion.</div></div>", 
+                "Gastrointestinal upsets occur in 2–6%; haemorrhage and gastric ulceration occur in about 1 in 10 000 of habitual users of aspirin.&nbsp;<div><br /></div><div>Large doses of the drug taken over a prolonged period may cause hepatic impairment and renal papillary necrosis, leading to chronic renal failure.&nbsp;<div><br /></div><div>Allergic response (including bronchospasm), CNS disturbances, and aplastic anaemia may also occur.&nbsp;<div><br /></div><div>Reye’s syndrome in children.<div><br /></div><div>Therapeutic doses of aspirin increase oxygen consumption and CO2 production by uncoupling oxidative phosphorylation. Overdosage may lead to hyperventilation (by a direct action of the drug on the respiratory centre), pulmonary oedema, and respiratory failure.</div></div></div></div>", 
+                "Aspirin is rapidly and completely absorbed from the upper gastrointestinal tract and has a bioavailability of 70% due to an extensive first-pass metabolism.", 
+                "<div>Aspirin is rapidly hydrolysed to salicylic acid; the pharmacokinetics are of this compound. Salicylic acid is 80–90% protein-bound in the plasma, primarily to albumin. The VD is 9.6–12.71. The drug has only a limited ability to cross the blood–brain barrier.</div>", 
+                "As much as 80% of therapeutic doses of salicylic acid is metabolized in the liver. Conjugation with glycine forms salicyluric acid, and with glucuronic acid to form two different glucuronide esters. The conjugate with the acetyl group intact is referred to as the acyl glucuronide; the deacetylated conjugate is the phenolic glucuronide. These metabolic pathways have only a limited capacity. Small amounts of salicylic acid are also hydroxylated to gentisic acid.", 
+                "<div>Uptodate: Urine (75% as salicyluric acid, 10% as salicylic acid)</div><div><br /></div><div>First-order kinetics occurs with the metabolic pathways of salicylacyl glucuronide (10%) and gentisic acid (5%) production and with the urinary excretion of salicylic acid (15%). Due to the two saturable metabolic pathways, the elimination of salicylic acid obeys non-linear kinetics, i.e. the half-life varies with the dose administered.</div><div><br /></div><div>Renal excretion of salicylic acid becomes increasingly important as the metabolic pathways become saturated, because it is extremely sensitive to changes in urinary pH. A 10- to 20-fold increase in renal clearance occurs when urine pH is increased from 5 to 8. The use of urinary alkalinization exploits this particular aspect of salicylate elimination</div>", 
+                "7", 
+                "2", 
+                "5", 
+                "uptodate<div>oxford drugs</div><div>http://tmedweb.tulane.edu/pharmwiki/doku.php/antiplatelet_drugs</div><div>wiki</div>", 
+                "Aspirin, an acetyl derivative of salicylic acid, is a white, crystalline, weakly acidic substance, with a melting point of 136 °C (277 °F), and a boiling point of 140 °C. Its acid dissociation constant (pKa) is 3.5 at 25 °C. (wiki)"
+            ], 
+            "flags": 0, 
+            "guid": "L>LTv.8(Z/", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
         }
     ]
 }
