@@ -55,6 +55,7 @@
     "extendRev": 50, 
     "media_files": [
         "220px-Morphin_-_Morphine.svg.png", 
+        "hyoscine.jpg", 
         "med-9780198768814-graphic-010-full.jpg", 
         "paste-824633721001.jpg", 
         "paste-1679332212892.jpg", 
@@ -929,6 +930,35 @@
             ], 
             "flags": 0, 
             "guid": "gN!>~p%hE/", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Hyoscine", 
+                "<div>Alkaloid derived from <i>Scopolia camiolica</i>&nbsp;- ester from tropic acid and scopine.</div><div><br /></div><img src=\"hyoscine.jpg\" /><div><br /></div><div>NB: Scopolamine is L-hyoscine</div>", 
+                "<div>Premedication</div><div>Prophylaxis of motion sickness</div><div>Antispasmodic</div><div>Palliative care</div>", 
+                "<div>Clear solution for injection 0.4 mg/mL as hyoscine butylbromide</div><div><br /></div><div>Clear solution 20 mg/mL and 10 mg tablets</div><div><br /></div><div>Transdermal 1 mg/72 hours</div>", 
+                "<div>Anticholinergic with marked sedative effects</div><div><br /></div><div>Competitive antagonist of ACh at Muscarinic receptors (little effect at nicotinic receptors)</div>", 
+                "<div>IM 8-15 microg/kg</div><div><br /></div><div>PO 20 mg q 6hours</div>", 
+                "", 
+                "", 
+                "<div><b>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ CNS depressant</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Antanalgesic</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Antiemetic</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anti-parkinsonian&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ May cause Central &nbsp; Anticholinergic Syndrome</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span></div><div><b>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Less of an effect than atropine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Tachycardia initially which may be followed by bradycardia</div><div><br /></div><div><b>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Marked decrease in bronchial secretions</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Mild bronchodilation</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Mild stimulation of respiration</div><div><br /></div><div><b>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Marked antisialogogue</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Antispasmodic in gut and biliary tree</div><div><br /></div><div><b>Other</b></div><div><b><br /></b></div><div>Reduced bladder and ureteric tone</div><div><br /></div><div><span class=\"Apple-tab-span\" style=\"white-space: pre; \"> </span>○ More marked affect on the eye and sweat glands than atropine</div>", 
+                "<div>Central Anticholinergic Syndrome</div><div><br /></div><div>May induce acute clinical and biochemical manifestations in patients with porphyria</div>", 
+                "<div>Poorly absorbed</div><div><br /></div><div>Bioavailability 10 %</div>", 
+                "<div>Protein Binding 11 %</div><div><br /></div><div>VD 2.0 L/KG</div>", 
+                "Liver metabolism to scopine and scopic acid", 
+                "<div>5 % excreted in bile</div><div><br /></div><div>Clearance 45 L/hour</div><div><br /></div><div>Elimination t 1/2 = 2.5 hours</div>", 
+                "4", 
+                "", 
+                "", 
+                "Oxford Drugs", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "uR_-0i@-45", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
         }
