@@ -61,6 +61,7 @@
         "paste-1696512082370.jpg", 
         "Warfarin.svg", 
         "paste-1331439861913.jpg", 
+        "566px-Metoclopramide.svg.png", 
         "rox-590x353.jpg", 
         "Aspirin-skeletal.svg"
     ], 
@@ -839,6 +840,35 @@
             ], 
             "flags": 0, 
             "guid": "L>LTv.8(Z/", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Metoclopramide", 
+                "Antiemetic dopaminergic antagonist<div>A chlorinated procainamide derivative.<div><br /><div><img src=\"566px-Metoclopramide.svg.png\" /></div><div><br /></div></div></div>", 
+                "<div>Metoclopramide is used in the treatment of:</div><div><br /></div><div>&nbsp; &nbsp; 1. digestive disorders, e.g. hiatus hernia, reflux oesophagitis, and gastritis</div><div><br /></div><div>&nbsp; &nbsp; 2. nausea and vomiting due to a variety of causes, e.g. drugs (general anaesthetic agents, opiates, and cytotoxic gents), radiotherapy, hepatic and biliary disorders</div><div><br /></div><div>&nbsp; &nbsp; 3. diagnostic radiology of the gastrointestinal tract</div><div><br /></div><div>&nbsp; &nbsp; 4. migraine, and</div><div><br /></div><div>&nbsp; &nbsp; 5. post-operative gastric hypotonia.</div>", 
+                "As 10 mg tablets, a syrup containing 1 mg/ml, and as a clear, colourless solution for injection containing 5 mg/ml of metoclopramide hydrochloride.", 
+                "<div>Main actions</div><div>Increased gastrointestinal motility and antiemetic.</div><div><br /></div><div>Mode of action</div><div>The effects of metoclopramide on gastrointestinal motility appear to be mediated by:</div><div>&nbsp; &nbsp; 1. antagonism of peripheral dopaminergic (D2) receptors</div><div>&nbsp; &nbsp;2. augmentation of peripheral cholinergic responses, and</div><div>&nbsp; &nbsp; 3. direct action on smooth muscle to increase tone.</div><div><br /></div><div>The antiemetic effects of the drug appear to be mediated by:</div><div>&nbsp; &nbsp; 1. central dopaminergic (D2) blockade, leading to an increased threshold for vomiting at the chemoreceptor trigger zone and</div><div>&nbsp; &nbsp; 2. decrease in the sensitivity of visceral nerves supplying afferent information to the vomiting centre.</div>", 
+                "<div><div>PO:</div><div>10mg 6-8 hourly</div><div>IV (IM):</div><div>10-20mg 6-8 hourly</div></div><div><br /></div><div>DOSAGE IN PAEDIATRICS:</div><div>PO/IV:</div><div>0.15-0.30mg/kg 6-8 hourly</div><div><br /></div><div>Dose reduce in renal impairment</div>", 
+                "Onset of action: Oral: 30 to 60 minutes; IV: 1 to 3 minutes; IM: 10 to 15 minutes<div>Duration: Therapeutic: 1 to 2 hours, regardless of route&nbsp;</div>", 
+                "PO, IV, IM", 
+                "<div>Effects</div><div>CVS</div><div><br /></div><div>There have been occasional reports of hypotension during general anaesthesia and cardiac arrest, dysrhythmias, and hypertension in patients with phaeochromocytoma following the administration of metoclopramide.</div><div><br /></div><div>CNS</div><div><br /></div><div>Metoclopramide raises the threshold for vomiting at the chemoreceptor trigger zone and prevents apomorphine-induced vomiting in man. The drug has neuroleptic effects (including an antipsychotic action), as would be expected of a centrally acting dopamine antagonist.</div><div><br /></div><div>AS</div><div><br /></div><div>Metoclopramide increases the tone of the lower oesophageal sphincter by about 17 mmHg, accelerates gastric emptying and the amplitude of gastric contractions, and accelerates small intestinal transit time. Its effects on large bowel motility are variable. The drug has no effect on gastric secretion.</div><div><br /></div><div>GU</div><div>The drug may increase ureteric peristaltic activity.</div><div><br /></div><div>Metabolic/other</div><div>Metoclopramide stimulates prolactin release and also causes a transient increase in aldosterone secretion.</div><div><br /></div>", 
+                "Occur in 11% of patients receiving the drug; drowsiness, dizziness, faintness, and bowel disturbances are the most frequently reported side effects. Extrapyramidal side effects occur; the commonest manifestations are akathisia and oculogyric crises; extrapyramidal effects occur more frequently with higher doses, and in patients with renal impairment and the elderly. The neuroleptic malignant syndrome has been reported in association with metoclopramide.", 
+                "The drug is rapidly absorbed after oral administration and has a bioavailability by this route of 32–97%. This wide variability is due primarily to first-pass conjugation to sulfate.", 
+                "Metoclopramide is 13–22% protein-bound in the plasma; the VD is 2.2–3.4 l/kg.", 
+                "Occurs primarily in the liver; the major metabolite is a sulfate derivative. Two other metabolites have been identified in man.", 
+                "<div>80% of an oral dose is excreted in the urine within 24 hours; 20% of this is unchanged, and the remainder appears as non-metabolized drug conjugated to a sulfate or glucuronide and as the sulfated metabolite. The clearance is 8.8–11.6 ml/min/kg, and the elimination half-life is 2.6–5 hours.</div><div><br /></div><div>Metoclopramide is not significantly removed by haemodialysis.</div>", 
+                "5", 
+                "3", 
+                "5", 
+                "Oxford Drugs<div>Wellington ICU drug manual</div><div>https://www.uptodate.com/contents/metoclopramide-drug-information</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NTuMZc`7T-", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
         }
