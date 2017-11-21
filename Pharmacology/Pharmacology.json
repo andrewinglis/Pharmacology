@@ -1,0 +1,906 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "2cedcbfa-bbde-11e7-a130-f40f241a83b0", 
+    "deck_config_uuid": "fd4483b8-bbaf-11e7-86f5-f40f241a83b0", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "fd4483b8-bbaf-11e7-86f5-f40f241a83b0", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Pharmacology", 
+            "new": {
+                "bury": false, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 1, 
+                "perDay": 200, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": false, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 200
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [
+        "220px-Morphin_-_Morphine.svg.png", 
+        "med-9780198768814-graphic-010-full.jpg", 
+        "paste-824633721001.jpg", 
+        "paste-1679332212892.jpg", 
+        "paste-1696512082370.jpg", 
+        "Warfarin.svg", 
+        "paste-1331439861913.jpg", 
+        "566px-Metoclopramide.svg.png", 
+        "rox-590x353.jpg", 
+        "Aspirin-skeletal.svg", 
+        "ondansetron.jpg"
+    ], 
+    "mid": 1498440676344, 
+    "name": "Pharmacology", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "cf6f413a-41bb-11e7-ba9b-f40f241a83b0", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Card ID", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "ANZCA", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}<br>\n<br>\nSource: {{Source}}<br>\n\n", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Card 1", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }, 
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n\n color: black;\n background-color: white;\n}\n", 
+            "flds": [
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Drug", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Class", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Uses", 
+                    "ord": 2, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Presentation", 
+                    "ord": 3, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Action", 
+                    "ord": 4, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Doses", 
+                    "ord": 5, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Onset/Duration", 
+                    "ord": 6, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Routes", 
+                    "ord": 7, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Effects", 
+                    "ord": 8, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Toxicity", 
+                    "ord": 9, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Absorption", 
+                    "ord": 10, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Distribution", 
+                    "ord": 11, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Metabolism", 
+                    "ord": 12, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Elimination", 
+                    "ord": 13, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Number of uses", 
+                    "ord": 14, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Number of routes", 
+                    "ord": 15, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Systems affected", 
+                    "ord": 16, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Source", 
+                    "ord": 17, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Physical Properties", 
+                    "ord": 18, 
+                    "rtl": false, 
+                    "size": 20, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage[utf8]{inputenc}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Pharmacology", 
+            "req": [
+                [
+                    0, 
+                    "any", 
+                    [
+                        0, 
+                        14
+                    ]
+                ], 
+                [
+                    1, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    2, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    3, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    4, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    5, 
+                    "any", 
+                    [
+                        0, 
+                        15
+                    ]
+                ], 
+                [
+                    6, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    7, 
+                    "any", 
+                    [
+                        0, 
+                        15
+                    ]
+                ], 
+                [
+                    8, 
+                    "any", 
+                    [
+                        0, 
+                        16
+                    ]
+                ], 
+                [
+                    9, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    10, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    11, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    12, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ], 
+                [
+                    13, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Uses}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Uses", 
+                    "ord": 0, 
+                    "qfmt": "What are the uses of {{Drug}}?<br>\n<br>List {{Number of uses}}\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Presentation}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Presentation", 
+                    "ord": 1, 
+                    "qfmt": "In what form/s is {{Drug}} presented?\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Physical Properties}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Physical Properties", 
+                    "ord": 2, 
+                    "qfmt": "What are the Physical Properties of {{Drug}}\n\n\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Action}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Action", 
+                    "ord": 3, 
+                    "qfmt": "What is the mechanism of action of {{Drug}}?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Class}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Class", 
+                    "ord": 4, 
+                    "qfmt": "What class of drug is {{Drug}}\n<br>\nStructure?\n\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Doses}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Doses", 
+                    "ord": 5, 
+                    "qfmt": "In what doses can {{Drug}} be given? <br><br>\nThere are {{Number of routes}} doses to consider based on route.\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Onset/Duration}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Onset/Duration", 
+                    "ord": 6, 
+                    "qfmt": "What is the onset of {{Drug}}, and what is its duration?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Routes}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Routes", 
+                    "ord": 7, 
+                    "qfmt": "In what routes can {{Drug}} be given? <br>\n<br>List {{Number of routes}}\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Effects}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Effects", 
+                    "ord": 8, 
+                    "qfmt": "What are the effects of {{Drug}}?<br><br>\nClassify by system<br>\n\nList {{Systems affected}}\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Toxicity}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Toxicity", 
+                    "ord": 9, 
+                    "qfmt": "What are the side effects/toxicity of {{Drug}}?<br>\n\n\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Absorption}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Absorption", 
+                    "ord": 10, 
+                    "qfmt": "How is {{Drug}} absorbed?\nWhat is its bioavailability?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Distribution}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Distribution", 
+                    "ord": 11, 
+                    "qfmt": "What is the distribution of {{Drug}}?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Metabolism}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Metabolism", 
+                    "ord": 12, 
+                    "qfmt": "How is {{Drug}} metabolised?\n\n\n"
+                }, 
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Elimination}}\n<br>\n{{Source}}", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Elimination", 
+                    "ord": 13, 
+                    "qfmt": "How is {{Drug}} excreted?\n\n\n"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Fentanyl", 
+                "Synthetic phenylpiperidine<div><img src=\"paste-1679332212892.jpg\" /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia component of GA</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Combination with tranquilizer to produce neuroleptanalgesia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia during labour when regional anaesthesia is not in use</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Premedication</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Palliative care</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clear, colourless solution: 50 microg/mL of fentanyl citrate</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Transdermal patches: 12/25/50/75/100 microg/hour over 72 hr</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Sublingual tabs 100/200/400/600/800 microg</div><div><br /></div>", 
+                "<div>Highly selective mu-agonist (MOP)</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Premedication IM: 50-100 microg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Induction: IV 1-100 microg/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Epidural: 50-100 microg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Spinal: 5- 25 microg</div><div><br /></div>", 
+                "<div>&nbsp;•\tOnset&nbsp;</div><div>&nbsp;◦\t2-5 minutes&nbsp;</div><div><br /></div><div>&nbsp;•\tDuration of Action&nbsp;</div><div>&nbsp;◦\t30-60 min (small dose)</div><div>&nbsp;◦\t4-6 hours (high dose &gt; 50 microg/kg)&nbsp;</div><div>&nbsp;◦\tPatches: equilibrium conc 12-24 hours\n</div><div><br /></div>", 
+                "PO, IM, Subcut, IV, Epidural, Intrathecal", 
+                "<div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia (50-80 times more potent than morphine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Little hypnotic/sedative activity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Miosis (stimulates EW nucleus)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Nausea and Vomiting may occur</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bradycardia (vagal) - most significant</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on CO, MAP, PVR/SVR, pulmonary capillary wedge pressure</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Obtunds cardiovascular response to laryngoscopy/intubation</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Portent respiratory depressant: decreases RR and TV</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces ventilatory response to hypoxia/hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Anti-tussive</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Chest wall rigidity (\"wooden chest phenomenon\"</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Minimal histamine release (rarely bronchospasm)</div><div><br /></div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Endocrine</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>High doses obtund the metabolic stress response to surgery</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on WBC function</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Does not increase activity of ADH (unlike morphine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases GI motility</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases gastric acid secretion</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Doubles CBD pressure by causing sphincter of Oddi spasm</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Other</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Increases tone of ureters/bladder detrusor muscle and vesicular sphincter</div><div><br /></div>", 
+                "Respiratory depression may occur post-operatively, possibly related to the appearance of a secondary peak in the plasma fentanyl concentration due to elution from muscle. Nausea, vomiting, and dependence may also complicate the use of the drug.", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bioavailability of 33 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Becomes highly ionised in the stomach (99.9 %) --&gt; slow absorption&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Transdermal - 47 % absorption at 24 hours; 88 % &nbsp;at 48 hours, 94 % at 72 hours</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Protein Binding - ~90 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Vd 0.88-4.41 L/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Short duration of action d/t redistribution</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Continuous administration --&gt; tissue saturation and prolonged duration&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Lipid soluble (more so than morphine) - crosses BBB more easily</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>▪<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Much more rapid onset of action than morpine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Intrathecal admin doesn’t cause delayed resp depression (unlike morphine) because it is rapidly absorbed into the spinal cord</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Primarily by N-dealkylation to norfentanyl&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Fentanyl + Norfentanyl undergo hydroxylation to hydoxypropionyl derivatives</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Also hydroxylation and amide hydrolysis</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Mainly by Cytochrome P450 3A4 (in liver and intestine)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Non-active metabolites</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>10 % of fentanyl excreted in urine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clearance 13 ml/kg/min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Elimination half life 141-853 min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduced clearance in renal and hepatic impairment</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>PO ritonavir = potent inhibitor of CYP3A4, prolongs clearance by 2/3</div><div><br /></div>", 
+                "5", 
+                "5", 
+                "6", 
+                "Drugs in Anasesthesia and Intensive Care (Oxford)", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>pKa 8.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>9 % ionized at pH 7.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Highly lipid soluble (octanol:water coefficient 717)</div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "Cm>w`jhXM2", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "opioids", 
+                "pharmacology,"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Dexamethasone", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "ee;+p=Mtt7", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Suxamethonium", 
+                "Depolarising neuromuscular blocking agent<div><img src=\"med-9780198768814-graphic-010-full.jpg\" /></div><div>The dicholine ester of succinic acid (equivalent to two acetylcholine molecules joined back-to-back).</div>", 
+                "<div>Suxamethonium is used:</div><div><br /></div><div>&nbsp; &nbsp; 1. wherever rapid and profound neuromuscular blockade is required, e.g. to facilitate tracheal intubation and</div><div><br /></div><div>&nbsp; &nbsp; 2. for the modification of fits after electroconvulsive therapy.</div>", 
+                "As a clear aqueous solution containing 50 mg/ml of suxamethonium chloride; the preparation should be stored at 4°C", 
+                "Neuromuscular blockade of brief duration in skeletal muscle.&nbsp;<div><br /></div><div>Acts on the nicotinic Ach receptor in the post-synaptic membrane of the neuromuscular junction. Causes prolonged depolarization of skeletal muscle fibres to a membrane potential above which an action potential can be triggered.</div><div><div><br /></div></div>", 
+                "The intravenous dose is 0.5– 2.0 mg/kg; the onset of action occurs within 30 seconds, and the duration of action is 3–5 minutes. Infusion of a 0.1% solution at 2–15 mg/kg/hour will yield 90% twitch depression. The intramuscular dose is up to 2.5 mg/kg. Equal doses on a mg/kg basis have a shorter duration of action in infants. The drug may also be administered sublingually at a dose of 2 mg/kg<div><br /></div><div>Total body weight should be used to calculate drug dosage in morbidly obese individuals.</div>", 
+                "The intravenous dose is 0.5– 2.0 mg/kg;<b><font color=\"#2b2cff\"> the onset of action occurs within 30 seconds, and the duration of action is 3–5 minutes.</font></b>&nbsp;<div><br /></div><div><b><font color=\"#2b2cff\">Equal doses on a mg/kg basis have a shorter duration of action in infants.</font></b>&nbsp;<div><br /></div></div>", 
+                "IV, IM, SL, infusion", 
+                "<div>CVS</div><div>With repeated doses of suxamethonium, bradycardia and a slight increase in mean arterial pressure may occur.</div><div><br /></div><div>RS</div><div>Apnoea occurs subsequent to skeletal muscle paralysis.</div><div><br /></div><div>CNS</div><div>The administration of suxamethonium may initially cause fasciculations which are then followed by a phase I depolarizing block. The characteristics of this during partial paralysis are:</div><div><br /></div><div>&nbsp; &nbsp; 1. well-sustained tetanus during stimulation at 50–100 Hz</div><div><br /></div><div>&nbsp; &nbsp; 2. the absence of post-tetanic facilitation</div><div><br /></div><div>&nbsp; &nbsp; 3. train-of-four ratio &gt;0.7 and</div><div><br /></div><div>&nbsp; &nbsp; 4. potentiation by anticholinesterases.</div><div><br /></div><div>With repeated administration or a large total dose, a phase II block may develop. The characteristics of this during partial paralysis are:</div><div><br /></div><div>&nbsp; &nbsp; 1. poorly sustained tetanus</div><div><br /></div><div>&nbsp; &nbsp; 2. post-tetanic facilitation</div><div><br /></div><div>&nbsp; &nbsp; 3. train-of-four ratio &lt;0.3</div><div><br /></div><div>&nbsp; &nbsp; 4. reversal by anticholinesterases and</div><div><br /></div><div>&nbsp; &nbsp; 5. tachyphylaxis.</div><div><br /></div><div>Intracranial and intraocular pressures are both raised, following the administration of suxamethonium.</div><div><br /></div><div>AS</div><div>The intragastric pressure increases by 7–12 cmH2O; the lower oesophageal sphincter tone simultaneously decreases with the use of suxamethonium. Salivation and gastric secretions are increased.</div><div><br /></div><div>Metabolic/other</div><div>Serum potassium concentration is briefly increased in normal individuals by 0.2–0.4 mmol/l.</div>", 
+                "<div>Eight side effects (dr podcast)</div><div><br /></div><div>1) Myalgia&nbsp;- common, especially in women, the middle-aged, and those ambulant early in the post-operative period.&nbsp;</div><div>2) Disrhythmias - most commonly bradycardia, usually sinus or nodal but could be ventricular. Most commonly in paeds and with&nbsp;repeated dosing.</div><div>3) HyperK - In most individuals a transient rise of 0.5mmol/L occurs which rapidly resolves. Hyperkalaemic response is markedly exaggerated in patients with burns or major denervation of muscle and acute or chronic renal failure; this may lead to cardiac arrest.&nbsp;</div><div><br /></div><div>4) &nbsp;Intraocular pressure is transiently raised (10-15mmHg) following the use of suxamethonium—the drug should be used with caution in patients with penetrating eye injuries. Thiopentone can offset</div><div><br /></div><div>5) Raised intragastric pressure - increases by 7–12 cmH2O; the lower oesophageal sphincter tone simultaneously decreases with the use of suxamethonium.</div><div><br /></div><div>6) There have been many reports of fatal anaphylactoid reactions with the administration of suxamethonium.</div><div><br /></div><div>7)&nbsp;Suxamethonium apnoea</div><div><br /></div><div>8) MH -&nbsp;Suxamethonium is a potent trigger agent for the development of malignant hyperthermia and may cause generalized contractures in those patients exhibiting myotonia. &nbsp;</div><div><br /></div><div>Cross-sensitivity exists with many of the non-depolarizing drugs, following administration of suxamethonium.</div>", 
+                "Absorbed poorly and to varying extent from GI tract (as are other quarternary ammoniums)", 
+                "An initial rapid redistribution phase may contribute to the brief duration of action of the drug. Suxamethonium appears to be protein-bound to an unknown extent.", 
+                "The drug is hydrolysed by plasma cholinesterase (EC 3.1.1.8) to succinylomonocholine (which is weakly active) and choline; the former is further hydrolysed by plasma cholinesterase to succinic acid and choline. Eighty percent of an administered dose is hydrolysed before it reaches the neuromuscular junction.", 
+                "2–10% of an administered dose is excreted unchanged in the urine. The in vivo hydrolysis rate is 3–7 mg/l/min, and the half-life 2.7– 4.6 minutes.", 
+                "2", 
+                "4", 
+                "5", 
+                "Oxford drugs + Dr Podcast<div>https://pubchem.ncbi.nlm.nih.gov/compound/succinylcholine#section=Top</div>", 
+                "The dicholine ester of succinic acid (equivalent to two acetylcholine molecules joined back-to-back).<div><br /></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>290.404 g/mol</div><div><br /></div><div>Suxamethonium is pharmaceutically incompatible with thiopental.</div><div>Incompatible with alkaline compounds, must be kept refrigerated</div>"
+            ], 
+            "flags": 0, 
+            "guid": "m_wkCd~K4y", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "NMBA"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What dose of fentanyl is used for intubation in paediatric cases?", 
+                "2 micrograms/kg", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "mq`X=(M#G7", 
+            "note_model_uuid": "cf6f413a-41bb-11e7-ba9b-f40f241a83b0", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Remifentanyl", 
+                "Synthetic derivative of fentanyl (phenylpiperidine)<div><br /></div><div><img src=\"paste-824633721001.jpg\" /></div><div><br /></div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesic component to general anaesthesia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>ICU analgesia/anaesthesia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia in labour when regional anaesthesia not in use</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia/sedation during awake fibreoptic intubation</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>White lyophilized powder to be reconstituted - remifentanyl hydrochloride in glycine buffer</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>1/2/5 mg vials</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia and respiratory depression</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Pure mu-agonist (MOP)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces amount of volatile/hypnotic agent</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Slow IV bolus of <b>1 microg/kg</b> over at least 30 sec</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>TCI -&nbsp;<b>0.0125-1 microg/kg/min</b></div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Peak effect 1-3 minutes</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Rapid offset and predictable even after prolonged infusion (5-10 min)</div><div><br /></div>", 
+                "IV", 
+                "<div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Centrally mediated vagal activity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Similar analgesic potency to fentanyl</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Minimal sedative/hypnotic activity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Miosis (EW stimulation)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Low incidence of N&amp;V</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Short duration of action = more pronounced post-op discomfort if used as sole agent</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases MAP and HR by 20 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>May decrease myocardial contractility and CO</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bradycardia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Potent respiratory depressant (decrease RR and TV)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Diminishes ventilatory response to hypoxia and hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Chest wall rigidity (? Mu-receptors on GABA-ergic interneurons)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>NO HISTAMINE RELEASE</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Decreases motility</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Other</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Hepatic impairment = more sensitive to resp depressant effects</div><div><br /></div>", 
+                "<div>Respiratory depression, bradycardia, nausea, and vomiting may all complicate the use of remifentanil. Because of its short duration of action, post-operative discomfort may be pronounced if remifentanil is used as a sole analgesic agent perioperatively.</div><div><br /></div>", 
+                "100 % - IV only", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Protein binding 70 % (2/3 to alpha 1 acid glycoprotein)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Low Lipid solubility&nbsp;</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Low Vd of 0.1 L/kg (SS to peripheral tissues 0.25-0.4 L/kg)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Crosses placenta</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Neonatal Vd = 2 x adult</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Context sensitive half life 3-5 minutes</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Rapid ester hydrolysis by non-specific plasma and tissue esterases to carboxylic acid derivative = remifentanyl acid</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>•<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>4600-fold less potent</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Short CSt1/2 because of large amount of esterases</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Not metabolised by plasma cholinesterases</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clearance 4.2-5 L/min independent of renal and hepatic function</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>95 % excreted in urine as the acid (1.5-2 hours half life)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Renal impairment can cause build up of the acid metabolite but is not clinically significant</div><div><br /></div>", 
+                "4", 
+                "1", 
+                "5", 
+                "Oxford Drugs", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>pKa 7.1</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>68 % unionized at pH 7.4</div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "L{&}mg/g*3", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Alfentanil", 
+                "Synthetic phenylpiperidine derivative<div><br /></div><div><img src=\"paste-1331439861913.jpg\" /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesic component to GA</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Sedation for ICU</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Obtund cardiovascular response to laryngoscopy</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clear colourless solution for injection</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>0.5 or 5 mg/mL of alfentanil hydrochloride&nbsp;</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Analgesia and respiratory depression</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Highly selective mu-agonist (MOP)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces amount of volatile/hynotic agent needed for anaesthesia maintenance</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>IV 5-50 microg/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Infusion 0.5-1 microg/kg/min</div><div><br /></div>", 
+                "Onset - peak effect within <b><font color=\"#1a00f5\">90 sec</font></b><div><br /></div><div>Duration - <b><font color=\"#1a00f5\">5-10 min</font></b> (shorter than fentanyl d/t smaller Vd and shorter elimination half life)</div>", 
+                "IV", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span><b>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>10-20 times more potent than morphine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Little hypnotic/sedative activity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Miosis (EW stimulation)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces intra-ocular pressure by 45 %</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Increase amplitude of EEG + reduces frequency</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>N&amp;V</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span></div><div><b>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Bradycardia is the most significant effect (vagal)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>No effect on CO, MAP, PVR/SVR, PCWP</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Obtunds cardiovascular response to laryngoscopy and intubation</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Resp</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Potent respiratory depressant (reduces TV and RR)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Diminishes response to hypoxia and hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Antitussive</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Chest wall rigidity</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Minimal histamine release (thus rarely bronchospasm)</div><div>&nbsp;</div><div><b><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Renal</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Increases tone in ureters, bladder detrusor and vesicular sphincter</div><div><br /></div><div><b>Endocrine</b></div><div></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Obtunds metabolic stress response to surgery (more effective than fentanyl)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Does not increase ADH (unlike morphine)</div><div><b><br /></b></div><div><b>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Slows motility</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Reduces gastric acid secretion</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Doubles CBD pressure</div><div><br /></div>", 
+                "<div>Respiratory depression, bradycardia, nausea, vomiting, and dependence may also complicate the use of the drug</div><div><br /></div>", 
+                "<div>100 % - IV</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Protein binding 85-92 % (alpha 1 acid glycoprotein)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Vd 0.4-1 L/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Crosses the placenta</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Mainly in Liver by N-dealkylation to noralfentanil</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Remainder by: aromatic hydroxylation, demethylation, amide hydrolysis followed by acetylation</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Major phase II is via conjugation to glucuronide</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>CYP450 3A4 is a major player in metabolism - subject to competitive inhibition by midazolam</div><div><br /></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>90 % excreted in urine (&lt; 1 % as unchanged drug)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clearance 3.3-8.3 mL/kg/min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Half life 90-111 min</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Clearance inhibited by co-admin of erythromycin, cimetidine, fluconazole, ketoconazole, ritonavir, diltiazem</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Half life prolonged in elderly and in significant hepatic/renal impairment&nbsp;</div><div><br /></div>", 
+                "3", 
+                "1", 
+                "6", 
+                "Oxford Drugs", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>pKa 6.5</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>89 % unionized at ph 7.4</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>◦<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>Low lipid solubility (octanol:water partition 128.1)</div><div><br /></div>"
+            ], 
+            "flags": 0, 
+            "guid": "x:6K|IRm71", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Rocuronium", 
+                "<div>Non-depolarising muscle relaxant</div><div>Aminosteroid</div><div><img src=\"rox-590x353.jpg\" /></div>", 
+                "<div>Rocuronium is used:</div><div><br /></div><div>&nbsp; &nbsp; 1. to facilitate tracheal intubation during routine and modified rapid sequence induction</div><div><br /></div><div>&nbsp; &nbsp; 2. for controlled ventilation.</div>", 
+                "As a clear, colourless solution containing 50 mg/5ml of rocuronium bromide, in clear glass ampoules", 
+                "Competitive neuromuscular blockade.<div><br /></div><div>Rocuronium acts by competitively binding to the\b alpha subunit(s) of the nicotinic cholinergic receptors (nAChRs) at the postjunctional membrane of the neuromuscular junction, which decreases the opportunity for acetylcholine to bind.&nbsp;Does not cause conformational change in receptor therefore non-depolarising.&nbsp;As a result, the ion channel is non-functional, depolarisation is prevented, calcium ions are not released and muscle contraction does not occur.&nbsp;</div><!--anki--><div><br /></div><div>Evidence also suggests that nondepolarising agents can affect ACh release by action on presynaptic nAChRs.&nbsp;</div><div><br /></div><div>80% of receptors need to be blocked to prevent NMJ transmission</div>", 
+                "Rocuronium is administered intravenously; <font color=\"#2b2cff\">the normal intubating dose is 0.6 mg/kg, with subsequent doses of 0.15 mg/kg.</font> This intubating dose equates to twice the ED90 for rocuronium (ED90 0.3 mg/kg) and results in ‘excellent’ intubating conditions in 80% of cases within 60 seconds. <font color=\"#2b2cff\">A dose of 1 mg/kg is recommended when rocuronium is used during modified rapid sequence induction,</font> resulting in intubating conditions within 60 seconds in 93–96%<div><br /></div><div><span style=\"color: rgb(43, 44, 255)\">The drug may also be infused at a rate of 300–600 micrograms/kg/hour. The drug is non-cumulative with repeated administration.</span></div>", 
+                "Rocuronium is administered intravenously; the <font color=\"#2b2cff\">normal intubating dose</font> is 0.6 mg/kg, with subsequent doses of 0.15 mg/kg. This intubating dose equates to twice the ED90 for rocuronium (ED90 0.3 mg/kg) and <font color=\"#2b2cff\">results in ‘excellent’ intubating conditions in 80% of cases within 60 seconds. </font>A dose of 1 mg/kg is recommended when rocuronium is used <font color=\"#2b2cff\">during modified rapid sequence induction, resulting in intubating conditions within 60 seconds in 93–96%</font><div><font color=\"#2b2cff\"><br /></font></div><div><font color=\"#2b2cff\">The duration of action relates to the dose given, and, as a result, the usual recovery index of 8–17 minutes with a normal intubating dose is increased to nearly an hour when 1.0 mg/kg is used.&nbsp;</font></div>", 
+                "1", 
+                "<div>CVS</div><div><br /></div><div>Rocuronium has minimal cardiovascular effects; with large doses, a mild vagolytic effect leads to a slight (9%) increase in the heart rate and an increase in the mean arterial pressure of up to 16%.</div><div><br /></div><div>RS</div><div><br /></div><div>Neuromuscular blockade leads to apnoea. Rocuronium causes an insignificant release of histamine; bronchospasm is extremely uncommon.</div><div><br /></div>", 
+                "There have been very rare reports of fatal anaphylactoid reactions with the administration of rocuronium. Cross-sensitivity may exist with other aminosteroid compounds (vecuronium, pancuronium). Pain on injection occurs in 16% of subjects when rocuronium is used in combination with propofol, compared with 0.5% of subjects when thiopental is used.", 
+                "IV drug. Poorly absorbed from GI tract", 
+                "The drug is 30% protein-bound in the plasma; the VD is 0.27 l/kg", 
+                "Depending on the source you read - no metabolites or some de-acetylated metabolites are found but mostly excreted unchanged.&nbsp;", 
+                "Rocuronium is excreted primarily by hepatic uptake and hepatobiliary excretion. 30 to 40% of the dose is excreted unchanged in the bile, 13–31% in the urine. After administration of a bolus dose, the plasma concentration time course runs in three exponential phases. In adults, the mean elimination half-life is 73 (66–80) minutes, with a plasma clearance of 3.7 (3.5–3.9) ml/kg/min. The pharmacokinetics of rocuronium are not significantly altered in the presence of renal failure. The mean elimination half-life is prolonged by 30 minutes, and the mean plasma clearance is reduced by 1 ml/kg/min in the presence of hepatic dysfunction; the duration of action is correspondingly increased.", 
+                "2", 
+                "1", 
+                "2", 
+                "Oxford drugs<div>Dr podcast</div><div>https://www.drugbank.ca/drugs/DB00728</div><div>Adam Hollingworth</div><div>https://www.openanesthesia.org/neuromuscular_blockade_anesthesia_text/</div>", 
+                "<div><div>An aminosteroid (Mono quarternary amine)</div></div><div>Structurally, rocuronium resembles vecuronium except for the presence of a hydroxyl group rather than an acetyl group on the A-ring of the steroid nucleus.&nbsp;</div><div><br /></div><div>Molecular Weight<span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>529.786 g/mol</div>"
+            ], 
+            "flags": 0, 
+            "guid": "H7ip-x2Oy!", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "NMBA"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Morphine", 
+                "a phenanthrene derivative<div><br /></div><div><img src=\"220px-Morphin_-_Morphine.svg.png\" /></div>", 
+                "<div>1. For premedication</div><div>2. Analgesic for moderate to severe pain</div><div>3. Naloxone does not reverse analgesia effects of epidural morphine</div><div>4. Treatment of LV failure</div><div>5. Analgesia in terminal care</div><div>6. Combination with kaolin in symptomatic treatment of diarrhoea</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Tablets: 5/10/30/60/100/200 mg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Syrup: 2/10/30 mg/mL</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Suppositories: 15/30 mg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ IV: 10/15/30 mg/mL of morphine surface</div><div>Preservative-free formulations for spinal/epidural use</div>", 
+                "Mu and Kappa agonist", 
+                "<div>PO: 5-20 mg q 4 hours</div><div>PR: 15-30 mg q 4hours</div><div>IM/SC: 0.1-0.2 mg/kg</div><div>IV: 0.05-0.1 mg/kg q 3-4 hours</div><div>Intrathecal: 0.2-1 mg</div>", 
+                "Peak analgesic effect 30-60 min (IM)<div><br /></div><div>3-4 hours duration</div>", 
+                "IV, PO, IM, PR, Intrathecal", 
+                "<div><b>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Potent analgesia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Drowsiness</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anxiolysis</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Euphoria</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Miosis (EW stimulation)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Seizures and muscular rigidity at high doses</div><div><b>CVS</b> (minimal effects)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Orthostatic hypotension (due to drop in SVR)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>§ Partly due to histamine release</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Bradycardia at high doses</div><div><b>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Respiratory depression</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Decreased ventilatory response to hypoxia and hypercarbia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anti-tussive</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Bronchoconstriction at high doses</div><div><b>Endocrine</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Transient decrease in adrenal steroid scretion</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Diaphoresis/pruritus from histamine release</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Increases ADH secretion (hypnonatraemia)</div><div><b>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Decreases motility</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Decreases secretion of gastric acid, biliary and pancreatic secretions</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Increases CBD pressure --&gt; N/V + constipation</div><div><b>Other</b></div><div>The drug increases the tone of the ureters, bladder detrusor muscle, and sphincter, and may precipitate urinary retention.</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Respiratory depression, nausea and vomiting, hallucinations, and dependence may complicate the use of morphine. Pruritus may occur after epidural or spinal administration of the drug.</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ May precipitate encephalopathy in presence of hepatic failure</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ May precipitate coma in presence of hypopituitarism</div><div>Not removed by haemodialysis or peritoneal dialysis</div>", 
+                "PO: Bioavailability 15-50 % (extensive first pass metabolism)", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Protein Binding: 20-40 % (mainly albumin)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Vd: 3.4-4.7 L/kg</div><div>No clear correlation between degree of analgesia and plasma concentration</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Liver: glucurodination to morphine 3-glucuronide (70 %), morphine 6-glucoronide (5-10 %) and normorphine (20-25%)</div><div>The 6-glucuronide is more potent than morphine&nbsp;</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Urinary excretion of glucuronide conjugates</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ 7-10 % appears in faeces as conjugated morphine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Clearance 12-23 mL/min/kg</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Elimination Half Life 1.7-4.5 hours</div><div>Accumulation of morphine 6-glucuronide occurs in renal failure</div>", 
+                "6", 
+                "5", 
+                "6", 
+                "Oxford Drugs and Dr. Podcast", 
+                "pKa 8.21<div><br /></div><div>MW 285.34 g/mol</div>"
+            ], 
+            "flags": 0, 
+            "guid": "kb.u{r[b}s", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "opioids"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Warfarin", 
+                "A synthetic coumarin derivative.&nbsp;<div>Warfarin consists of a racemic mixture of two active enantiomers—R- and S- forms—each of which is cleared by different pathways. S-warfarin is 2-5 times more potent than the R-isomer in producing an anticoagulant response</div><div><br /></div><div><img src=\"Warfarin.svg\" /></div><div><br /></div>", 
+                "<div>Anticoagulation for prophylaxis and/or treatment of venous thrombosis, pulmonary</div><div>embolism, thromboembolism associated with atrial fibrillation or prosthetic valve insertion.</div><div><br /></div><div>Can also be used for post-STEMI prophylaxis and for maintenance therapy post treatment for HIT</div><div><br /></div><div><div>Anticoagulants have no direct effect on established thrombus but prevent further extension of the formed clot.</div></div>", 
+                "As tablets containing 1/2/3/5 mg of a racemic mixture of warfarin sodium.", 
+                "Warfarin prevents the synthesis of the vitamin K-dependent clotting factors (II, VII, IX, and X) as well as the regulatory factors protein C, protein S, (and protein Z) in the liver.&nbsp;<div>Warfarin has no effect on circulating clotting factors.</div><div><br /></div><div>The formation of fully active clotting factors is dependent on the gamma carboxylation by gamma-glutamyl carboxylase&nbsp;of their glutamic acid residues of their precursor proteins&nbsp;to allow the coagulation factors to bind to phospholipid surfaces on the vascular endothelium. During this reaction, vitamin K is oxidized to vitamin K 2,3-epoxide; warfarin inhibits vitamin K epoxide reductase which prevents the reduction of this epoxide back to vitamin K. This results in vitamin K depletion and a decrease in the rate of formation of complete clotting factors.&nbsp;</div><div><div><br /></div><div><div>Therapeutic warfarin doses decrease the total amount of the active form of each vitamin K dependent factor made by the liver by approximately 30-50%.</div></div></div>", 
+                "The dosage is individualised according to the patient’s sensitivity to the drug as indicated by their INR. Most patients are satisfactorily maintained with a dose of 2 to 10mg daily.<div><br /></div><div>Several studies have shown that a loading regimen of 5mg/5mg/5mg produces a therapeutic INR by day 4 to 5 as rapidly as higher dosed regimens but with a reduced risk of bleeding complications. In patients after cardiac surgery, a loading regimen of 2.5mg for the first 2 days with the third dose adjusted only if the INR was &lt;1.5 or &gt;3.0 has been shown to reduce excessive anticoagulation; this is the recommended dosing schedule in these patients</div><div><br /></div><div><div>Recommended INR ranges:</div><div>VTE, Atrial fibrillation, Bioprosthetic heart valves 2.0-3.0&nbsp;</div><div>Mechanical heart valves 2.5-3.5</div></div><div><br /></div><div><div>DOSAGE IN RENAL FAILURE AND RENAL REPLACEMENT THERAPY:</div><div>Dose as in normal renal function. Active metabolites may accumulate in renal failure. Not dialysed.</div></div>", 
+                "An anticoagulant effect generally occurs within 24 hours after drug administration, however peak anticoagulant effect may be delayed by 72-96 hours. The duration of action of a single dose of warfarin is 2-5 days.", 
+                "Oral only", 
+                "No other effects apart from anti-coagulation<div><br /></div><div>(from uses:&nbsp;Anticoagulation for prophylaxis and/or treatment of venous thrombosis, pulmonary</div><div>embolism, thromboembolism associated with atrial fibrillation or prosthetic valve insertion.</div><div><br /></div><div><div>Anticoagulants have no direct effect on established thrombus but prevent further extension of the formed clot.)</div></div>", 
+                "Haemorrhage is the most frequent side effect. Hypersensitivity reactions and gastrointestinal upsets may occur. The drug appears to be teratogenic if taken during pregnancy.<div><br /></div><div>Warfarin may potentiate a more hypercoagulable state in the first 24-48 hours due to the more rapid depletion of the anticoagulant proteins C &amp; S when compared to the clotting factors with longer half-lives.&nbsp;As such, any concomitant anticoagulant therapy such as Heparin or Enoxaparin should be continued until the desired therapeutic INR is reached. This initial pro-coagulant effect is increased with the use of higher loading doses.</div><div><br /></div><div>Necrosis &amp; gangrene of skin and other tissues is seen less frequently (&lt;0.1%) and usually appears within a few days of the start of therapy.</div><div><br /></div><div>Spinal and epidural anaesthesia are contraindicated in patients anticoagulated with warfarin.</div><div><br /></div><div>Significant drug interactions with warfarin could be considered a toxicity / side effect</div><div><div><div>Highly protein bound drugs such as NSAIDs, oral hypoglycaemic agents, diuretics</div><div>and amiodarone displace warfarin from the protein binding sites, resulting in higher free</div><div>drug levels and potentiation of its effect. Broad spectrum antibiotics, reduced vitamin K</div><div>intake and cimetidine potentiate the effect of warfarin.</div><div>The effect of warfarin may be reduced by induction of hepatic enzymes by barbiturates</div><div>and phenytoin. Oestrogens increase the production of vitamin K-dependent clotting factors&nbsp;and decrease effectiveness.</div></div></div><div><br /></div><div>Other side effects include osteoporosis and purple toe syndrome</div><div><br /></div>", 
+                "The drug is rapidly and completely absorbed from the stomach and upper gastrointestinal tract, and has an oral bioavailability of 100%.", 
+                "Warfarin is 99% protein-bound in the serum, predominantly to albumin. The VD is 0.1–0.16 l/kg.", 
+                "Warfarin is virtually completely metabolized in the liver.&nbsp;Both the enantiomers of warfarin undergo CYP-mediated metabolism by many different CYPs to form 3',4',6,7,8 and 10-hydroxy warfarin metabolites, major being 7-OH warfarin formed from S-warfarin by CYP2C9 and 10-OH warfarin from R-warfarin by CYP3A4; these metabolites are then conjugated with glucuronide.<div><br /></div><div>Warfarin activity is determined partially by genetic factors. Polymorphisms in two genes (VKORC1 and CYP2C9) play a particularly large role in response to warfarin.VKORC1 polymorphisms explain 30% of the dose variation between patients. CYP2C9 polymorphisms explain 10% of the dose variation between patients, mainly among Caucasian patients</div><div><br /></div>", 
+                "The metabolites are excreted in the faeces and urine. The clearance is 3.26–3.8 ml/min/kg, and the elimination half-life of warfarin ranges from 35 to 45 hours; this is decreased in patients with renal impairment.", 
+                "1", 
+                "1", 
+                "1", 
+                "Oxford Drugs<div>Wellington ICU manual</div><div>wiki</div><div>https://www.drugs.com/monograph/warfarin-sodium.html</div>", 
+                "Slightly bitter crystalline powder.&nbsp;330g/mol"
+            ], 
+            "flags": 0, 
+            "guid": "eh6}qnHo40", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "anticoagulants"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Aspirin", 
+                "Anti-platelet agent<div><br /></div><div><img src=\"Aspirin-skeletal.svg\" /></div>", 
+                "<div>&nbsp; &nbsp; 1. for the treatment of pain of mild to moderate severity and severe bone pain</div><div><br /></div><div>&nbsp; &nbsp; 2. as an anti-inflammatory agent, e.g. in rheumatoid arthritis and osteoarthritis (also kawasaki disease, GCA)</div><div><br /></div><div>&nbsp; &nbsp; 3. as an antipyretic</div><div><br /></div><div>&nbsp; &nbsp; 4. Vascular indications (ischemic stroke, transient ischemic attack, acute myocardial infarction, prevention of recurrent myocardial infarction, unstable angina, and chronic stable angina)</div><div><br /></div><div>&nbsp; &nbsp; 5. Revascularization procedures: In patients who have undergone revascularization procedures (ie, coronary artery bypass graft [CABG], percutaneous transluminal coronary angioplasty, or carotid endarterectomy).&nbsp;</div><div><br /></div><div>&nbsp; &nbsp; 6. in the treatment of pre-eclampsia</div><div><br /></div><div>&nbsp; &nbsp; 7. ?primary prevention of CRC</div><div><br /></div>", 
+                "As 75/100/300/600 mg tablets of aspirin and in a variety of fixed-dose combinations.", 
+                "Aspirin acetylates, and thereby inhibits, the enzyme cyclo-oxygenase (COX1 in low doses, COX1 and 2 in higher) which converts arachidonic acid to cyclic endoperoxides, thus preventing the formation of prostaglandins and thromboxanes. Prostaglandins are involved in the sensitization of peripheral pain receptors to noxious stimuli. It may also inhibit the lipo-oxygenase pathway by an action on hydroperoxy fatty acid peroxidase. The drug inhibits cyclo-oxygenase irreversibly in platelets (as they have no DNA), but not in the endothelium. This inhibition leads to reduced TXA2 levels which leads to inhibition of platelet aggregation.&nbsp;<div><div><div><img src=\"paste-1696512082370.jpg\" /></div></div></div>", 
+                "The adult oral dose is 300–900 mg, 6- to 8-hourly (analgesic)<div>300mg acute MI (600mg PR if cannot tolerate PO)</div><div>100mg daily for prophylaxis</div><div><br /></div><div>aspirin is not recommended for use in children under 12 years of age.</div>", 
+                "<div>Platelet inhibition: Within 1 hour (nonenteric-coated). Onset of enteric-coated aspirin expected to be delayed (Eikelboom 2012). Note: Chewing nonenteric-coated or enteric-coated tablets results in inhibition of platelet aggregation within 20 minutes; therefore, nonenteric-coated tablets should be chewed in settings where a more rapid onset is required (eg, acute MI).</div><div><br /></div><div>Duration of immediate release: 4 to 6 hours; however antiplatelet effects lasts 8-10 days (the life of the platelet).&nbsp;</div>", 
+                "PO, PR", 
+                "<div>CVS</div><div><br /></div><div>Aspirin has minimal haemodynamic effects at normal doses; however, platelet aggregation is inhibited, and bleeding time is increased by a decrease in thromboxane A2 production (with large doses, the concentration of prothrombin is decreased).</div><div><br /></div><div>RS</div><div><br /></div><div>Therapeutic doses of aspirin increase oxygen consumption and CO2 production by uncoupling oxidative phosphorylation. Overdosage may lead to hyperventilation (by a direct action of the drug on the respiratory centre), pulmonary oedema, and respiratory failure.</div><div><br /></div><div>CNS</div><div><br /></div><div>The analgesic effect of the drug appears to be exerted by both central and peripheral mechanisms; the antipyretic effect may be a manifestation of inhibition of prostaglandin synthesis at the hypothalamic level.</div><div><br /></div><div>AS</div><div><br /></div><div>Aspirin increases gastric acid production.</div><div><br /></div><div>GU</div><div><br /></div><div>The drug may cause proteinuria and an increase in the number of renal tubular casts appearing in the urine. Aspirin is uricosuric in high doses but paradoxically decreases urate excretion at low doses.</div><div><br /></div><div><div>Metabolic/other</div><div><br /></div><div>Blood sugar tends to decrease with low doses and increase with high doses of aspirin. Transient elevation of serum urea concentrations and elevation of liver enzymes may occur. Lipogenesis is decreased; very large doses of aspirin stimulate steroid secretion.</div></div>", 
+                "Gastrointestinal upsets occur in 2–6%; haemorrhage and gastric ulceration occur in about 1 in 10 000 of habitual users of aspirin.&nbsp;<div><br /></div><div>Large doses of the drug taken over a prolonged period may cause hepatic impairment and renal papillary necrosis, leading to chronic renal failure.&nbsp;<div><br /></div><div>Allergic response (including bronchospasm), CNS disturbances, and aplastic anaemia may also occur.&nbsp;<div><br /></div><div>Reye’s syndrome in children.<div><br /></div><div>Therapeutic doses of aspirin increase oxygen consumption and CO2 production by uncoupling oxidative phosphorylation. Overdosage may lead to hyperventilation (by a direct action of the drug on the respiratory centre), pulmonary oedema, and respiratory failure.</div></div></div></div>", 
+                "Aspirin is rapidly and completely absorbed from the upper gastrointestinal tract and has a bioavailability of 70% due to an extensive first-pass metabolism.", 
+                "<div>Aspirin is rapidly hydrolysed to salicylic acid; the pharmacokinetics are of this compound. Salicylic acid is 80–90% protein-bound in the plasma, primarily to albumin. The VD is 9.6–12.71. The drug has only a limited ability to cross the blood–brain barrier.</div>", 
+                "As much as 80% of therapeutic doses of salicylic acid is metabolized in the liver. Conjugation with glycine forms salicyluric acid, and with glucuronic acid to form two different glucuronide esters. The conjugate with the acetyl group intact is referred to as the acyl glucuronide; the deacetylated conjugate is the phenolic glucuronide. These metabolic pathways have only a limited capacity. Small amounts of salicylic acid are also hydroxylated to gentisic acid.", 
+                "<div>Uptodate: Urine (75% as salicyluric acid, 10% as salicylic acid)</div><div><br /></div><div>First-order kinetics occurs with the metabolic pathways of salicylacyl glucuronide (10%) and gentisic acid (5%) production and with the urinary excretion of salicylic acid (15%). Due to the two saturable metabolic pathways, the elimination of salicylic acid obeys non-linear kinetics, i.e. the half-life varies with the dose administered.</div><div><br /></div><div>Renal excretion of salicylic acid becomes increasingly important as the metabolic pathways become saturated, because it is extremely sensitive to changes in urinary pH. A 10- to 20-fold increase in renal clearance occurs when urine pH is increased from 5 to 8. The use of urinary alkalinization exploits this particular aspect of salicylate elimination</div>", 
+                "7", 
+                "2", 
+                "5", 
+                "uptodate<div>oxford drugs</div><div>http://tmedweb.tulane.edu/pharmwiki/doku.php/antiplatelet_drugs</div><div>wiki</div>", 
+                "Aspirin, an acetyl derivative of salicylic acid, is a white, crystalline, weakly acidic substance, with a melting point of 136 °C (277 °F), and a boiling point of 140 °C. Its acid dissociation constant (pKa) is 3.5 at 25 °C. (wiki)"
+            ], 
+            "flags": 0, 
+            "guid": "L>LTv.8(Z/", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Metoclopramide", 
+                "Antiemetic dopaminergic antagonist<div>A chlorinated procainamide derivative.<div><br /><div><img src=\"566px-Metoclopramide.svg.png\" /></div><div><br /></div></div></div>", 
+                "<div>Metoclopramide is used in the treatment of:</div><div><br /></div><div>&nbsp; &nbsp; 1. digestive disorders, e.g. hiatus hernia, reflux oesophagitis, and gastritis</div><div><br /></div><div>&nbsp; &nbsp; 2. nausea and vomiting due to a variety of causes, e.g. drugs (general anaesthetic agents, opiates, and cytotoxic gents), radiotherapy, hepatic and biliary disorders</div><div><br /></div><div>&nbsp; &nbsp; 3. diagnostic radiology of the gastrointestinal tract</div><div><br /></div><div>&nbsp; &nbsp; 4. migraine, and</div><div><br /></div><div>&nbsp; &nbsp; 5. post-operative gastric hypotonia.</div>", 
+                "As 10 mg tablets, a syrup containing 1 mg/ml, and as a clear, colourless solution for injection containing 5 mg/ml of metoclopramide hydrochloride.", 
+                "<div>Main actions</div><div>Increased gastrointestinal motility and antiemetic.</div><div><br /></div><div>Mode of action</div><div>The effects of metoclopramide on gastrointestinal motility appear to be mediated by:</div><div>&nbsp; &nbsp; 1. antagonism of peripheral dopaminergic (D2) receptors</div><div>&nbsp; &nbsp;2. augmentation of peripheral cholinergic responses, and</div><div>&nbsp; &nbsp; 3. direct action on smooth muscle to increase tone.</div><div><br /></div><div>The antiemetic effects of the drug appear to be mediated by:</div><div>&nbsp; &nbsp; 1. central dopaminergic (D2) blockade, leading to an increased threshold for vomiting at the chemoreceptor trigger zone and</div><div>&nbsp; &nbsp; 2. decrease in the sensitivity of visceral nerves supplying afferent information to the vomiting centre.</div>", 
+                "<div><div>PO:</div><div>10mg 6-8 hourly</div><div>IV (IM):</div><div>10-20mg 6-8 hourly</div></div><div><br /></div><div>DOSAGE IN PAEDIATRICS:</div><div>PO/IV:</div><div>0.15-0.30mg/kg 6-8 hourly</div><div><br /></div><div>Dose reduce in renal impairment</div>", 
+                "Onset of action: Oral: 30 to 60 minutes; IV: 1 to 3 minutes; IM: 10 to 15 minutes<div>Duration: Therapeutic: 1 to 2 hours, regardless of route&nbsp;</div>", 
+                "PO, IV, IM", 
+                "<div>Effects</div><div>CVS</div><div><br /></div><div>There have been occasional reports of hypotension during general anaesthesia and cardiac arrest, dysrhythmias, and hypertension in patients with phaeochromocytoma following the administration of metoclopramide.</div><div><br /></div><div>CNS</div><div><br /></div><div>Metoclopramide raises the threshold for vomiting at the chemoreceptor trigger zone and prevents apomorphine-induced vomiting in man. The drug has neuroleptic effects (including an antipsychotic action), as would be expected of a centrally acting dopamine antagonist.</div><div><br /></div><div>AS</div><div><br /></div><div>Metoclopramide increases the tone of the lower oesophageal sphincter by about 17 mmHg, accelerates gastric emptying and the amplitude of gastric contractions, and accelerates small intestinal transit time. Its effects on large bowel motility are variable. The drug has no effect on gastric secretion.</div><div><br /></div><div>GU</div><div>The drug may increase ureteric peristaltic activity.</div><div><br /></div><div>Metabolic/other</div><div>Metoclopramide stimulates prolactin release and also causes a transient increase in aldosterone secretion.</div><div><br /></div>", 
+                "Occur in 11% of patients receiving the drug; drowsiness, dizziness, faintness, and bowel disturbances are the most frequently reported side effects. Extrapyramidal side effects occur; the commonest manifestations are akathisia and oculogyric crises; extrapyramidal effects occur more frequently with higher doses, and in patients with renal impairment and the elderly. The neuroleptic malignant syndrome has been reported in association with metoclopramide.", 
+                "The drug is rapidly absorbed after oral administration and has a bioavailability by this route of 32–97%. This wide variability is due primarily to first-pass conjugation to sulfate.", 
+                "Metoclopramide is 13–22% protein-bound in the plasma; the VD is 2.2–3.4 l/kg.", 
+                "Occurs primarily in the liver; the major metabolite is a sulfate derivative. Two other metabolites have been identified in man.", 
+                "<div>80% of an oral dose is excreted in the urine within 24 hours; 20% of this is unchanged, and the remainder appears as non-metabolized drug conjugated to a sulfate or glucuronide and as the sulfated metabolite. The clearance is 8.8–11.6 ml/min/kg, and the elimination half-life is 2.6–5 hours.</div><div><br /></div><div>Metoclopramide is not significantly removed by haemodialysis.</div>", 
+                "5", 
+                "3", 
+                "5", 
+                "Oxford Drugs<div>Wellington ICU drug manual</div><div>https://www.uptodate.com/contents/metoclopramide-drug-information</div>", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "NTuMZc`7T-", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Ondansetron", 
+                "A synthetic carbazole<div><br /><div><img src=\"ondansetron.jpg\" /></div></div>", 
+                "1. Prevention and treatment of PONV<div>2. Mx of N&amp;V induced by chemotherapy/radiotherapy</div>", 
+                "<div>Clear colourless solution for injection 2 mg/mL ondansetron hydrochloride dihydrate</div><div><br /></div><div>4 and 8 mg sublingual tablets as a strawberry flavoured lyophilizate</div><div><br /></div><div>Suppository 16 mg</div>", 
+                "Highly selective 5HT3 antagonist that acts both centrally and peripherally", 
+                "<div>0.1 mg/kg</div><div><br /></div><div>4-8 mg single dose, up to 32 mg/day</div>", 
+                "<div>Peak plasma concentrations ~ 30 ng/mL in 1.5 hours after 8 mg PO dose</div><div><br /></div><div>Peak plasma concentrations ~ 25 ng/mL in 10 min after 4 mg IM dose</div><div><br /></div><div>Peak plasma concentrations ~ 65 ng/mL in 10 min after 4 mg IV dose</div>", 
+                "IV, sublingual, IM, rectal", 
+                "<div>CNS</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ No sedative effects and doesn't impair performance in psychomotor tests</div><div><br /></div><div>CVS</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Bradycardia if rapid IV administration may occur</div><div><br /></div><div>Resp</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ No effects</div><div><br /></div><div>Renal</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ none</div><div><br /></div><div>Endocrine</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ none</div><div><br /></div><div>GI</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Increases large bowel transit time</div><div>No effect on gastric motility</div><div><br /></div><div><div>• No need to dose adjust in renal impairment despite reduced clearance and Vd</div><div>• Hepatic impairment significantly reduces clearance</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Prolonged elimination t 1/2 --&gt; 15-32 hours</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Should limit to 8 mg/day</div><div>• May reduce analgesic effect of tramadol</div><div>May reduce incidence of post-anaesthetic shivering</div></div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Constipation</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Headache</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Flushing</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Bradycardia after rapid IV administration</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Prolonged QTc</div><div>Rare case of anaphylaxis</div>", 
+                "PO Bioavailability 60-65 %", 
+                "<div>Protein binding 70-76 %</div><div><br /></div><div>Vd 2 L/kg</div>", 
+                "<div>Extensive Liver metabolism by CYP 3A4, CYP 2D6, CYP 1A2</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp;Indole Nucleus</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp; &nbsp;□ Hydroxylation --&gt; conjugation with glucuronide or sulfate</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp; &nbsp;□ N-demethylation --&gt; conjugation with glucuronide or sulfate</div><div><br /></div><div>Many different enzymes thus inhibition or deficiency in one is compensated for</div>", 
+                "<div>&lt; 5 % excreted unchanged in the urine</div><div><br /></div><div>Clearance 6.3 mL/kg/min</div><div>Elimination T 1/2 = 3 hours</div>", 
+                "2", 
+                "4", 
+                "", 
+                "Oxford Drugs", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "B.wUMDotH{", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }
+    ]
+}
