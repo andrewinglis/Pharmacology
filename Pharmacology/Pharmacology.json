@@ -60,8 +60,9 @@
         "paste-1679332212892.jpg", 
         "paste-1696512082370.jpg", 
         "Warfarin.svg", 
-        "paste-1331439861913.jpg", 
         "566px-Metoclopramide.svg.png", 
+        "paste-1331439861913.jpg", 
+        "cyclizine.jpg", 
         "rox-590x353.jpg", 
         "Aspirin-skeletal.svg", 
         "ondansetron.jpg"
@@ -899,6 +900,35 @@
             ], 
             "flags": 0, 
             "guid": "B.wUMDotH{", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Cyclizine", 
+                "Piperazine derivative<div><br /></div><div><img src=\"cyclizine.jpg\" /></div>", 
+                "<div>Treatment of nausea and vomiting due to</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp;Opioid or general anaesthetic agents</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp;Motion sickness</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp;Radiation sickness</div><div>&nbsp; &nbsp;Meiniere's Disease</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Tablets: 50 mg cyclizine hydrochloride</div><div>Clear colourless solution for injection - 50 mg/mL of cyclizine lactate (protect from light)</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Competitive antagonist of H1 receptors</div><div><br /></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anticholinergic activity at M1, M2 and M3</div><div><br /></div><div>Anti-emetic effect - blockade of central H1 and muscarinic receptors at Chemoreceptor trigger zone and central pattern generator</div>", 
+                "<div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>PO, IM, IV (note parenteral preparation painful due to pH)</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span></div><div>Max daily dose 150 mg</div><div>1 mg/kg</div>", 
+                "<div>Within 2 hours</div><div><br /></div><div>PO: 50 mg cyclizine = peak plasm concentrations in 2 hours (70 ng/mL)</div><div><br /></div><div>4 hours duration</div><div><br /></div>", 
+                "PO, IM, IV", 
+                "<div><b>CNS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Anti-emetic</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Slight sedation</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Reduces sensitivity of labyrinthine apparatus and depresses vestibular stimulation</div><div><br /></div><div><b>CVS</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Alpha-blockade</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp;&nbsp;&nbsp;Tachycardia</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>&nbsp;&nbsp;&nbsp;Hypotension</div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Fall in CO may occur (secondary to increase HR, MAP and PCWP) - use in caution in heart failure</div><div><br /></div><div><b>Resp</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Although an anti-histamine doesn't completely reverse anaphylactic bronchospasm as leukotrienes are involved in the mediation of allergic bronchoconstriction</div><div><br /></div><div><b>GI</b></div><div><span class=\"Apple-tab-span\" style=\"white-space:pre\"> </span>○ Increases lower oesophageal sphincter tone&nbsp;</div><div><br /></div>", 
+                "<div>Anticholinergic</div><div>Drowsiness</div><div>Dry mouth</div><div>Blurred vision</div><div>Restlessness, nervousness, insomnia, &nbsp;auditpry/visual hallucinations</div><div>Confusion in the elderly</div><div><br /></div><div><br /></div><div>Sedative effect is additive to that produced by anaesthetic agents</div><div>Don’t use in patients with porphyria</div>", 
+                "PO bioavailability 80 %", 
+                "", 
+                "Liver - N-demethylation to norcyclizine (little antihistamine activity)", 
+                "<div>Elimination half life 10-20 hours</div><div><br /></div><div>1&nbsp;% excreted unchanged in urine</div>", 
+                "4", 
+                "3", 
+                "4", 
+                "Oxford Drugs", 
+                "pH 3.2"
+            ], 
+            "flags": 0, 
+            "guid": "gN!>~p%hE/", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
         }
