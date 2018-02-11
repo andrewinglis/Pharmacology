@@ -54,19 +54,22 @@
     "extendNew": 10, 
     "extendRev": 50, 
     "media_files": [
-        "220px-Morphin_-_Morphine.svg.png", 
-        "hyoscine.jpg", 
         "med-9780198768814-graphic-010-full.jpg", 
-        "paste-824633721001.jpg", 
         "paste-1679332212892.jpg", 
-        "paste-1696512082370.jpg", 
-        "Warfarin.svg", 
-        "566px-Metoclopramide.svg.png", 
-        "paste-1331439861913.jpg", 
+        "220px-Morphin_-_Morphine.svg.png", 
         "cyclizine.jpg", 
+        "paste-1331439861913.jpg", 
+        "1200px-Clonidine.svg.jpg", 
         "rox-590x353.jpg", 
         "Aspirin-skeletal.svg", 
-        "ondansetron.jpg"
+        "ondansetron.jpg", 
+        "paste-644245095506.jpg", 
+        "Pregabalin_Structural_Formulae.jpg", 
+        "hyoscine.jpg", 
+        "paste-824633721001.jpg", 
+        "paste-1696512082370.jpg", 
+        "Warfarin.svg", 
+        "566px-Metoclopramide.svg.png"
     ], 
     "mid": 1498440676344, 
     "name": "Pharmacology", 
@@ -74,7 +77,7 @@
         {
             "__type__": "NoteModel", 
             "crowdanki_uuid": "cf6f413a-41bb-11e7-ba9b-f40f241a83b0", 
-            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: left;\n color: black;\n background-color: white;\n}\n", 
             "flds": [
                 {
                     "font": "Arial", 
@@ -126,7 +129,9 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "renal"
+            ], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Back}}<br>\n<br>\nSource: {{Source}}<br>\n\n", 
@@ -959,6 +964,64 @@
             ], 
             "flags": 0, 
             "guid": "uR_-0i@-45", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Clonidine", 
+                "Aniline derivative<div><img src=\"1200px-Clonidine.svg.jpg\" /></div>", 
+                "1. Essential and secondary hypertension<div>2. Mx of hypertensive crisis</div><div>3. Migraine</div><div>4. Chronic pain</div><div>5. During opiate/alcohol withdrawal</div><div>6. IV regional analgesia</div>", 
+                "<b>Oral</b><div>&nbsp;- 0.1/0.25/0.3 mg tabs</div><div><br /></div><div><b>IV</b></div><div>&nbsp;- clear colourless solution 0.15 mg/mL of clonidine hydrochloride</div>", 
+                "1. Antihypertensive<div>2. Analgesic</div><div>3. Sedative</div><div>4. Anxiolytic</div><div><br /></div><div><img src=\"paste-644245095506.jpg\" /></div>", 
+                "<b>Oral</b><div>&nbsp;- 50 microg - 600 microg q 8hrs</div><div><br /></div><div><b>IV</b></div><div>&nbsp;- 150 microg - 300 microg q 8 hrs</div><div><br /></div><div><b>Epidural</b></div><div>&nbsp; - 150 microg</div>", 
+                "IV - onset within 10 min and duration of 3-7 hours", 
+                "PO<div>IV</div>", 
+                "<b>CVS</b><div>&nbsp;- transient increase in BP (d/t alpha 1 stimulation) then sustained decrease</div><div>&nbsp;- HR + venous return slightly decrease</div><div>&nbsp;- no effect on contractility, maintained CO</div><div>&nbsp;- reduction in coronary vascular resistance</div><div>&nbsp;- decreased systemic vascular resistance long term treatment</div><div><br /></div><div><b>CNS</b></div><div>&nbsp;- Decreases cerebral blood flow</div><div>&nbsp;- Decreases intra-ocular pressure</div><div>&nbsp;- depresses sympathetic outflow (both spontaneous and afferent A-fibre and C-fibre mediated somatosympathetic reflexes)</div><div>&nbsp;- drowsiness</div><div><br /></div><div><b>Gastro</b></div><div>&nbsp;- Decreases gastric and small bowel motility</div><div>&nbsp;- Antisialogogue</div><div><br /></div><div><b>Genitourinary</b></div><div>&nbsp;- Reduces renovascular resistance BUT little variation in GFR</div><div><br /></div><div><b>Other</b></div><div>&nbsp;- Decrease in plasma catecholamine conc. and renin activity</div><div>&nbsp;- BGL may increase d/t alpha stimulation&nbsp;</div>", 
+                "1. Drowsiness<div>2. Xerostomia</div><div>3. Fluid retention</div><div>4. Life-threatening rebound hypertension and tachycardia if rapid withdrawal <b>8-36 hours after last dose</b></div>", 
+                "100 % PO bioavailability", 
+                "20 % protein bound<div><br /></div><div>Vd 1.7-2.5 L/kg</div><div><br /></div><div>Very lipid soluble</div>", 
+                "&lt; 50 % metabolised in the liver to inactive metabolites", 
+                "65 % excreted unchanged in urine<div>20 % excreted unchaged in faeces</div><div><br /></div><div>Clearance 1.9-4.3 mL/min/kg</div><div><br /></div><div>Elimination half life 6-23 hours</div><div><br /></div><div><b>Dose reduction in renal impairment</b>&nbsp;(eGFR &lt; 10)</div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "wd@%t1EE*$", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Pregabalin", 
+                "GABA analogue<div><br /></div><div><img src=\"Pregabalin_Structural_Formulae.jpg\" /></div>", 
+                "Treatment of&nbsp;<div>1. Peripheral and central neuropathic pain (pre-operatively 150 mg)</div><div>2. Partial seizures with or without secondary generalization</div><div>3. GAD</div>", 
+                "Capsules 25 to 300 mg", 
+                "Structurally similar to GABA but does not interact with GABA receptors<div><br /></div><div><b>Binds to alpha-2-delta subunit of voltage gated Ca channels</b></div><div><b><br /></b></div><div><b>It increases extracellular GABA concentrations in the brain by producing a dose-dependent increase in L-Glutamic acid decarboxylase (GAD), the enzyme responsible for making GABA</b></div><div><b><br /></b></div><div><b>Pregabalin increases the density of GABA transporter proteins and increases the rate of functional GABA transport</b></div>", 
+                "150-600 mg daily in 3 divided doses<div><br /></div><div>(reduced in renal impairment)</div>", 
+                "", 
+                "PO", 
+                "<b>CNS</b><div>&nbsp;- Analgesic</div><div>&nbsp;- Anticonvulsant</div><div>&nbsp;- Anxiolytic</div><div>&nbsp;- Dizziness</div><div>&nbsp;- Somnolence</div><div>&nbsp;- diplopia/decreaed VA, blurred vision</div><div><br /></div><div><b>Other</b></div><div>&nbsp;- weight gain in diabetics</div>", 
+                "Several renal failure patients developed <b>myoclonus</b> while receiving pregabalin, apparently as a result of gradual accumulation of the drug. Acute overdosage may be manifested by <b>somnolence, tachycardia and hypertonicity</b>. Plasma, serum or blood concentrations of pregabalin may be measured to monitor therapy or to confirm a diagnosis of poisoning in hospitalized patients", 
+                "Rapidly absorbed<div>Bioavailability &gt; 90 %</div>", 
+                "Not bound to plasma proteins<div>Vd 0.56 L/kg</div><div><br /></div>", 
+                "Minimal (0.9 % excreted as major metabolite N-methylated pregabalin)", 
+                "98 % excreted unchanged in urine<div><br /></div><div>Elimination half life 6 hours</div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "GT?LHj%_JI", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
         }
