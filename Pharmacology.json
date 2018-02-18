@@ -58,7 +58,7 @@
         "paste-1679332212892.jpg", 
         "220px-Morphin_-_Morphine.svg.png", 
         "cyclizine.jpg", 
-        "paste-1331439861913.jpg", 
+        "1200px-Acetazolamide.svg.png", 
         "1200px-Clonidine.svg.jpg", 
         "rox-590x353.jpg", 
         "Aspirin-skeletal.svg", 
@@ -67,6 +67,7 @@
         "Pregabalin_Structural_Formulae.jpg", 
         "hyoscine.jpg", 
         "paste-824633721001.jpg", 
+        "paste-1331439861913.jpg", 
         "paste-1696512082370.jpg", 
         "Warfarin.svg", 
         "566px-Metoclopramide.svg.png"
@@ -431,7 +432,9 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "diuretics"
+            ], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n{{Uses}}\n<br>\n{{Source}}", 
@@ -1024,6 +1027,37 @@
             "guid": "GT?LHj%_JI", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Acetazolomide", 
+                "Sulfonamide<div><br /></div><div><img src=\"1200px-Acetazolamide.svg.png\" /></div>", 
+                "1. Glaucoma<div>2. Petit mal epilepsy</div><div>3. Menieres Disease</div><div>4. Familial Periodic Paralysis</div><div>5. Prophylactic treatment of altitude sickness</div><div>6. Idiopathic Intracranial Hypertension</div>", 
+                "250 mg tablets<div>500 mg vials of the sodium salt - reconstituted for injection</div>", 
+                "Diuresis and decrease in intra-ocular pressure<div>Produces a metabolic acidosis</div><div><br /></div><div><b>Non-competitive inhibition of carbonic anhydrase</b></div>", 
+                "PO and IV dose 250-1000 mg daily", 
+                "", 
+                "PO and IV", 
+                "<b>CNS</b><div>&nbsp;- anticonvulsant properties ? d/t increased CO2 tension in the CNS</div><div>&nbsp;- decreases CSF pressure d/t decreased rate of CSF formation (50-60 % reduction)</div><div>&nbsp;- decreases pressure in intra-ocular compartment d/t decreased rate of aqueous humor formation (50-60 % reduction)</div><div><br /></div><div><b>Resp</b></div><div>&nbsp;- compensatory increase in ventilation in response to metabolic acidosis</div><div><br /></div><div><b>Gastro</b></div><div>&nbsp;- Inhibition of gastric and pancreatic secretion</div><div><br /></div><div><b>Renal</b></div><div>&nbsp;- mild diuresis</div><div>&nbsp;- Na retention</div><div>&nbsp;- decreases excretion of uric acid</div><div><br /></div><div><b>Other</b></div><div>&nbsp;- excretion of alkaline urine = hyperchloraemic metabolic acidosis</div><div>&nbsp;- interferes with iodine uptake in thyroid</div><div><br /></div><div><font color=\"#2c00f4\">Contraindiciated in hepatic or renal failure - worsen acidosis, urolithiasis</font></div><div><font color=\"#2c00f4\"><br /></font></div><div><font color=\"#2c00f4\">Pretreatment will obtund increase in IOP with suxamethonium</font></div>", 
+                "<div>High incidence of (? secondary to acidosis)</div><div>&nbsp;- fatigue</div><div>&nbsp;- decreased appetite</div><div>&nbsp;- depression</div><div>&nbsp;- paraesthesias</div><div><br /></div>Rarely<div>&nbsp;- gastrointestinal and haemopoietic disturbances</div><div>&nbsp;- rashes</div><div>&nbsp;- renal stones</div><div>&nbsp;- huypokalaemia<br /><div>&nbsp; &nbsp;</div></div>", 
+                "Rapid absoprtion - PO bioavailability 95-100 %", 
+                "70-90 % protein bound", 
+                "Not metabolised", 
+                "Excreted unchanged in the urine<div><br /></div><div>Clearance 2.7 L/hour</div><div><br /></div><div>Elimination t 1/2 = 2-6 hours</div>", 
+                "", 
+                "", 
+                "", 
+                "Oxford Drugs", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "KLT5C*p!?X", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "diuretics"
+            ]
         }
     ]
 }
