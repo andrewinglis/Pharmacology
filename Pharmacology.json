@@ -64,12 +64,15 @@
         "Aspirin-skeletal.svg", 
         "ondansetron.jpg", 
         "paste-644245095506.jpg", 
+        "paste-571230650948.jpg", 
         "Pregabalin_Structural_Formulae.jpg", 
         "hyoscine.jpg", 
-        "paste-824633721001.jpg", 
+        "paste-2035814499210.jpg", 
+        "paste-2576980378184.jpg", 
         "paste-1331439861913.jpg", 
         "paste-1696512082370.jpg", 
         "Warfarin.svg", 
+        "paste-824633721001.jpg", 
         "566px-Metoclopramide.svg.png"
     ], 
     "mid": 1498440676344, 
@@ -1054,6 +1057,99 @@
             ], 
             "flags": 0, 
             "guid": "KLT5C*p!?X", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "diuretics"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Frusemide", 
+                "Loop Diuretic - an anthranilic acid (sulfonamide) derivative<div><br /></div><div><img src=\"paste-571230650948.jpg\" /></div>", 
+                "1. Odema of cardiac, renal or hepatic origin<div>2. Chronic renal insufficiency</div><div>3. Hypertension</div><div>4. Raised ICP</div><div>5. Symptomatic hypercalcaemia</div><div>6. Conversion of oliguric to polyuric renal failure</div>", 
+                "Clear colourless solution 10 mg/mL<div><br /></div><div>20/40/500 mg tablets</div>", 
+                "Diuresis<div><br /></div><div>&nbsp;- inhibition of active Cl reabsorption in the PCT and ascending LoH --&gt; reduces the tonicity of the renal medullary interstitiu,--&gt; hypotonic/isotonic urine</div><div><br /></div><div><b>Inhibition of NaK ATPase and Na-K-2Cl cotransport</b></div>", 
+                "PO: 20-200 mg daily<div>IM: 20-50 mg&nbsp;</div><div>IV: 10-1000 mg titrated to response</div><div><br /></div><div>To reduced ICP - 0.5-1.0 mg/kg</div><div><br /></div><div>do not exceed infusion of 4 mg/min --&gt; ototoxicity</div>", 
+                "Rapid - diuresis within 5-10 min&nbsp;<div>Peak effect 30 min</div><div>Duration of Action - 2-6 hours</div>", 
+                "PO/IM/IV", 
+                "<b>CVS</b><div>&nbsp;- Pulmonary and systemic vasodilation (symptomatic relief of breathlessness prior to diuresis)</div><div>&nbsp;- arteriolar basodiltion (reduction in preload ahead of diuretic action)</div><div>&nbsp;- Caution in pt with normal or low intravascular volume --&gt; hypotension--&gt; renal ischaemic injury + concentrating nephrotoxins in renal tubule</div><div><b>Renal</b></div><div>&nbsp;- diuresis (within a few min of IV lasting 2 hr, 1 hour after PO lastin 4-6 h)</div><div>&nbsp;- increased free water clearance</div><div>&nbsp;- increased renal blood flow (redistributed to corticomedullary flow)</div><div>&nbsp;- reduced oxygen consumption of LoH to basal levels</div><div>&nbsp;- blood diversion from juxtaglomerualr region to outer cortex</div><div>&nbsp;- intersitial nephritis at high doses</div><div><b>Metabolic</b></div><div>&nbsp;- Metabolic alkalosis (hypochloraemic)</div><div>&nbsp;- hyperglycaemia</div><div>&nbsp;- increased cholesterol and TAG</div><div>&nbsp;- hyponatraemia</div><div>&nbsp;- hypokalaemia</div><div>&nbsp;- hypomagnesaemia</div><div>&nbsp;- hyperuricaemia</div><div>&nbsp;- pancreatitis</div><div><br /></div><div><b>CNS</b></div><div><b>&nbsp;- </b>transient auditory nerve damage</div><div><br /></div><div><font color=\"#2c00f4\">?Enhancement of the effects of NDMR ? d/y hypokalaemia</font></div><div><font color=\"#2c00f4\">diminised vasopressor response and enhanced vasodilator response</font></div><div><font color=\"#2c00f4\"><br /></font></div><div><font color=\"#2c00f4\">Tolerance (braking phenomenon)</font></div><div><font color=\"#2c00f4\">&nbsp;- activation of the RAAS to retain sodium and water in the presence of a contracted ECFV</font></div><div><font color=\"#2c00f4\"><br /></font></div><div><font color=\"#2c00f4\">Chronic Usage - compensatory hypertrophy of renal tubule (esp DCT) --&gt; decreased diuretic effectiveness</font></div><div>&nbsp;</div>", 
+                "<b>Hypokalaemia</b>, <b>hypocalcaemia</b>, <b>hypomagnesaemia</b>, and <b>metabolic</b> <b>alkalosis</b> may occur after the administration of furosemide. Transient <b>auditory nerve damage</b>, <b>pancreatitis</b>, skin rashes, and bone marrow depression have been reported. Furosemide causes <b>interstitial nephritis</b> in high doses; this is a common cause of acute renal failure when co-administered with an aminoglycoside—the two drugs are synergistic in this respect. <b>Deafness</b> is also more likely to result when furosemide and an aminoglycoside are co-administered", 
+                "60-70 % PO dose is absorbed --&gt; 43-71 % bioavailability&nbsp;", 
+                "96 % protein bound<div><br /></div><div>Vd = 0.11-0.13 L/kg</div>", 
+                "Metabolised by the kidney to a glucuronide", 
+                "80 % excreted in the urine unchanged and glucurodinated frusemide<div>20 % faecally excreted</div><div><br /></div><div>Clearance 2.2 mL/min/kg</div><div><br /></div><div>Elimination t1/2 45-92 min</div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "p$#<^n@6ZO", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "diuretics"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Spironolactone", 
+                "Synthetic steroid<img src=\"paste-2035814499210.jpg\" />", 
+                "Treatment of:<div>1. CCF</div><div>2. Hepatic cirrhosis with ascites and oedema</div><div>3. refractory oedema</div><div>4. HTN</div><div>5. Nephrotic Syndrome</div><div>6. Combo with loop or thiazide diuretics for conserve postassium</div><div>7. in the diagnosis and treatment of Conn's Syndrome</div>", 
+                "25/50/100 mg tablets", 
+                "Competitive antagonist of aldosterone at its receptor site in the DCT --&gt; inhibiting Na reabsorption and increasing K reabsoprtion<div><br /></div><div>Diuresis limited as only 2 % of Na reabsorption is under aldosterone control</div>", 
+                "100-400 mg PO daily", 
+                "Slow: 3-4 days to establish diuretic effect", 
+                "PO", 
+                "<b>CVS</b><div><b>&nbsp;- </b>Antihypertensive (? alteration of Na gradients or anatagonsim of aldosterone effect on arteriolar smooth muscle)</div><div><br /></div><div><b>CNS</b></div><div>&nbsp;- Sedation</div><div>&nbsp;- muscular weakness</div><div><br /></div><div><b>Renal</b></div><div>&nbsp;- Diuresis with K retention</div><div>&nbsp;- RBF and GFR unaffected</div><div>&nbsp;- Increases renal Ca excretion</div><div>&nbsp;- ? reversible hyperchloraemic metabolic acidosis</div><div>&nbsp;- increased plasma urea</div><div><br /></div><div><b>Metabolic</b></div><div>&nbsp;- Anti-androgen effect (gynaecomastia in men and menstrual irregularity in women)</div><div>&nbsp;- Hyperkalaemia</div><div>&nbsp;- N+V</div>", 
+                "The predominant side effect of spironolactone is hyperkalaemia, especially in the presence of renal impairment. The use of the drug is also associated with an appreciable incidence of nausea and vomiting and other gastrointestinal disturbances. Menstrual irregularities in the female and gynaecomastia in the male may result from the anti-androgenic effects of spironolactone.", 
+                "Incompletely absobed<div>Bioavailability 70 %</div><div>Extensive first pass metabolism</div>", 
+                "90 % protein bound", 
+                "Rapid and extensive metabolism &nbsp;- <b>deacetylation and dethiolation</b>&nbsp;(some active metabolites)", 
+                "Urine excretion (+ minor biliary excretion)<div><br /></div><div>elimination t1/2 = 1-2 hours</div><div><br /></div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "no6bxL]a#d", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "diuretics"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Mannitol", 
+                "Alcohol deribed from <i>Dahlia</i>&nbsp;tubers (polyhydric alcohol)<div><br /></div><div><img src=\"paste-2576980378184.jpg\" /></div>", 
+                "1. reduce pressure and volume of CSF<div>2. preserve renal function during perioeprative period in jandiced patients + those undergoing major vascular surgery</div><div>3. short-term Mx of acute glaucoma</div><div>4. bowel preparation for colorectal procedures</div><div>5. initiate diuresis in transplanted kidney</div><div>6. treatment of rhabdomyolysis</div>", 
+                "10 % and 20 % manitol in water", 
+                "Osmotic diuretic<div>&nbsp;- low MW (182 Da) - freely filtered at the glomerulus and not reabsorbed, doesn't cross the BBB</div>", 
+                "For ICP reduction - 1 g/kg IV over 15 min<div><br /></div><div>Intermittent doses 0.25-0.5 g/kg</div><div><br /></div><div>Diuretic Dose 0.5-1.0 g/kg</div><div><br /></div><div>PO prep dose 100 mL of 20 % solution</div>", 
+                "Acts within a few minutes and lasts 1-4 hours", 
+                "IV<div>PO</div>", 
+                "<b>CVS</b><div>&nbsp;- Increases cardiac output</div><div>&nbsp;- Increases BP by 5-10 mmHg</div><div><br /></div><div><b>CNS</b></div><div>&nbsp;- reduction in ICP with preservation of cerebral blood flow (if intact autoregulation)</div><div>&nbsp;- minimal reduction inf ICP with preservation of cerebral blood flow if defective autoregulation</div><div><br /></div><div><b>Renal</b></div><div>&nbsp;- RBF increased</div><div>&nbsp;- Decreased rate of renin secretion</div><div>&nbsp;- Washes out medullary interstitial gradient - &gt; decreased ability to form concentrated urine</div><div>&nbsp;</div><div><b>Metabolic</b></div><div>&nbsp;- drop in Na and K in plasma</div><div>&nbsp;- increased urea</div>", 
+                "Circulatory overload and rebound increases in intracranial pressure may occur, following the use of mannitol. Allergic responses are rare; the drug is irritant to tissues and veins. Mannitol may have toxic effects on the distal convoluted tubule and collecting duct cells, causing vacuolization<div><br /></div><div>Blood should not be co-administered with mannitol. A total dose exceeding 3 g/kg/day may produce a serum osmolality &gt;320 mOsm/l (<b>increased risk of renal failure</b>). Rebound increases in intracranial pressure may occur after the cessation of mannitol therapy.</div>", 
+                "17.5 % absorbed in the small bowel after PO administration", 
+                "Biphasic distribution to plasma and extracellular water, resulting in complex fluid shifts<div><br /></div><div>Vd 0.47 L/kg</div>", 
+                "Not metabolised", 
+                "Excreted unchanged in the urine<div><br /></div><div>Clearance 7 MmL/min/kg</div><div><br /></div><div>Elimination t 1/2 = 72 min</div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                ""
+            ], 
+            "flags": 0, 
+            "guid": "df!(1*unw.", 
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": [
                 "diuretics"
