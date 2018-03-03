@@ -56,6 +56,7 @@
     "media_files": [
         "med-9780198768814-graphic-010-full.jpg", 
         "paste-1679332212892.jpg", 
+        "paste-4234837754073.jpg", 
         "220px-Morphin_-_Morphine.svg.png", 
         "cyclizine.jpg", 
         "1200px-Acetazolamide.svg.png", 
@@ -134,7 +135,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "renal"
+                "Cardiovascular"
             ], 
             "tmpls": [
                 {
@@ -436,7 +437,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "diuretics"
+                "Induction"
             ], 
             "tmpls": [
                 {
@@ -1153,6 +1154,37 @@
             "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
             "tags": [
                 "diuretics"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Propofol", 
+                "<div>2,6-disopropylphenol</div><img src=\"paste-4234837754073.jpg\" />", 
+                "1. Induction and maintenance of anaesthesia<div>2. Sedation during intensive care and regional anaesthesia&nbsp;</div><div>3. Treatment of refractory nausea and vomiting in chemotherapy patients</div><div>4. Treatment of status epilepticus</div><div>5. Treatment of pruritis associated with neuraxial opioids or cholestasis</div>", 
+                "White oil-in-water emulsion (isotonic) containing 1 % or 2 % w/v propofol in:<div>soybean oil 100 mg/mL (10 %)</div><div>egg lecithin (purified egg phosphatide) 12 mg/mL (1.2 %)</div><div>benzyl alcohol 1 mg/mL</div><div>glycerol 22.5 mg/mL (2.25 %)</div><div>NaOH&nbsp;</div>", 
+                "Sedative/Hypnotic<div>&nbsp;- potentiates inhibitory neurotransmitters glycine and GABA</div><div>&nbsp;- may reduce Na channel opening times</div>", 
+                "<b><div></div></b><b><font color=\"#e4000d\">Induction</font></b><div><b><br /></b></div>Bolus for induction: <font color=\"#2c00f4\">1.5-2.5 mg/kg</font> (50% higher doses for children due to large VD and clearance rates; 25-50% smaller doses for elderly due to smaller VD and clearance rates)<div><br /></div><div><b>TCI for Induction:</b> Set target [ ] at <font color=\"#2c00f4\">4-8 μg/mL</font> (less if premedicated with midazolam 2 mg and fentanyl 100 μg). If sick or old, set target [ ] at 3-4 μg/mL, and increase by 0.5-1 μg/mL every minute to effect. This takes 60-120 seconds</div><div><br /></div><div><b>Infusion Pump:</b>&nbsp;Start with 12 mg/kg/hr for 10 mins (unless already premedicated), then 10 mg/kg/hr for 10 mins, then 8 mg/kg/hr for 10 mins, then 6 mg/kg/hr for 10 mins</div><div><br /></div><div><b><font color=\"#e4000d\">Maintenance of Anaesthesia:&nbsp;</font></b></div><div>&nbsp;- <b>TCI</b> – Target [ ] ~ 3-6 μg/mL (titrate to effect based upon patient factors, surgical factors and anaesthetic factors)</div><div>&nbsp;- <b>Infusion </b>-&nbsp;Rate of 6-12 mg/kg/hr (titrate rate to effect)</div><div><br /></div><div><font color=\"#e4000d\"><b>Sedation</b></font></div><div><font color=\"#e4000d\"><b><br /></b></font></div><div><b style=\"color: rgb(228, 0, 13); \">&nbsp;</b>TCI -&nbsp;Target [ ] ~0.5-2 μg/mL</div><div>&nbsp;Infusion Pump:&nbsp;Rate of 1-4 mg/kg/hr + midazolam or opioid</div><div><font color=\"#e4000d\"><b><br /></b></font></div><div><font color=\"#e4000d\"><b><br /></b></font></div><div><div><br /></div></div>", 
+                "Consciousness lost in 30-40 sec<div>Emergence after 10 min</div><div><br /></div><div>CSHT of propofol is only slightly increased with prolonged infusions (5 mins at 10 mins; 9 mins at 3 hrs; &lt; 40 mins at 8 hrs)</div><div><br /></div><div>2 hour 20 min</div><div>6 hour 30 min</div><div>9 hours 50 min</div>", 
+                "IV", 
+                "CVS<div>&nbsp;- drop in SVR and BP without compensatory tachycardia</div><div>&nbsp;- drop in CO</div><div>&nbsp;- Bradycardia</div><div>&nbsp;- myocardial contractility reduced</div><div>&nbsp;- reduced sympathetic activity&nbsp;</div><div><br /></div><div>CNS</div><div>&nbsp;- conscious sedation to full anaesthesia</div><div>&nbsp;- amnestic effect</div><div>&nbsp;- no analgesia</div><div>&nbsp;- reduced CMRO2, CBF and ICP</div><div>&nbsp;- excitatory effects (subcortical excitatory-inhibtory imbalance) - dystonic movements</div><div>&nbsp;- reduction in intraocular pressure</div><div><br /></div><div>Resp</div><div>&nbsp;- apnoea</div><div>&nbsp;- suppression of laryngeal reflexes</div><div>&nbsp;- decreased in TV</div><div>&nbsp;- increased RR</div><div>&nbsp;- depressed ventilatory response to hypercapnoea and hypoxia (increased apnoeic threshold)</div><div>&nbsp;- bronchodilation</div><div>&nbsp;- HPV preserved</div><div><br /></div><div>Gastro</div><div>&nbsp;- anti-emetic (? via antagonism of D2 receptors)</div><div><br /></div><div>Renal</div><div>&nbsp;- reduced excretion in Na (in animals)</div><div>&nbsp;- green urine after prolonged infusions (d/t phenols - not detrimental)</div><div>&nbsp;- increased excretion of uric acid</div><div><br /></div><div>Metabolic/Other</div><div>&nbsp;- inhibits platelet aggregation that is induced by proinflammatory mediators &nbsp;- TxA2 and PAF</div><div>&nbsp;- fat overload syndrome</div><div>&nbsp;- pain on injection</div><div><br /></div>", 
+                "Propofol Infusion Syndrome (after prolonged infusion &gt; 75 microg/kg/min for &gt; 24 h)<div>&nbsp;- metabolic acidosis</div><div>&nbsp;- rhabdomyolysis</div><div>&nbsp;- multi-organ failure</div>", 
+                "100 % as IV only", 
+                "Protein Binding - 98 %<div>Vd - 4 L/kg</div><div>Dist half life - 1-4 min</div><div><br /></div>", 
+                "Liver - conjugation to inactive glucuronide (40 %) or quinol (then conjugated)(60 %)<div><br /></div><div>High clearance (30-60 ml/kg/min) - faster than hepatic blood flow, thus extra-hepatic mechanisms of metabolism</div><div>&nbsp;- pulmonary first pass metabolism by CYP 450 to 4- hydroxypropofol</div><div>&nbsp;- renal metabolism via glucurodination</div>", 
+                "Renal excretion of inactive metabolites<div>&lt; 0.3 % excreted unchanged</div><div><br /></div><div>Metabolism and elimination not affecte by renal or hepatic impairment</div>", 
+                "", 
+                "", 
+                "", 
+                "", 
+                "MW 178.27 g/mol<div><br /></div><div>pKa 11 (weak organic acid) hence at physiological pH it is mostly unionized and thus active</div>"
+            ], 
+            "flags": 0, 
+            "guid": "fmglP!XkC<", 
+            "note_model_uuid": "a734c0b3-503b-11e7-9937-0025bcdd42f8", 
+            "tags": [
+                "Induction"
             ]
         }
     ]
